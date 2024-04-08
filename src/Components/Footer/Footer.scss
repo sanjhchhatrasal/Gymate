@@ -1,0 +1,92 @@
+.main-footer{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    gap: 10vw;
+    justify-content: center;
+    margin-top: 5vw;
+
+    .elem1{
+        width: 25%;
+        height: 100%;
+
+        p{
+            font-size: 1vw;
+            font-weight: 600;
+            color: gray;
+            margin-top: 1vw;
+            margin-bottom: 1.5vw;
+            line-height: 1.5;
+        }
+
+        .social-icons{
+            display: flex;
+            gap: 2vw;
+            margin-bottom: 1.5vw;
+
+            div{
+                height: 2.5vw;
+                width: 2.5vw;
+                border-radius: 50%;
+                background-color: #e1e1e1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: rgb(82, 75, 75);
+                transition: all ease 0.5s;
+            }
+        }
+
+        .social-icons div:hover {
+            background-color: #FF0366;
+            color: #fff;
+        }
+
+        h6{
+            font-size: 1.1vw;
+            font-weight: 500;
+            color: gray;
+        }
+    }
+
+    .elem2{
+        h1{
+            font-size: 1.5vw;
+            border-bottom: 4px solid #FF0366;
+        }
+
+        h6{
+            font-size: 1.05vw;
+            font-weight: 500;
+            color: gray;
+            margin-top: 1.5vw;
+            cursor: pointer;
+        }
+
+        h6:hover{
+            color: #FF0366;
+            font-weight: 700;
+        }
+    }
+
+
+    .elem3{
+        h1{
+            font-size: 1.5vw;
+            border-bottom: 4px solid #FF0366;
+        }
+
+        h5{
+            color: gray;
+            font-size: 1.1vw;
+            margin-top: 1.5vw;
+        }
+
+        h6{
+            font-size: 1vw;
+            font-weight: 500;
+            color: gray;
+            margin-top: 1.3vw;
+        }
+    }
+}

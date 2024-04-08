@@ -1,0 +1,157 @@
+.main-running{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+    .left{
+        height: 100%;
+        width: 50%;
+        padding-top: 8vw;
+       padding-left: 9vw;
+
+        .top{
+            position: relative;
+
+            .titlebg{
+                position: absolute;
+                width: 13vw;
+            }
+            h1{
+                position: absolute;
+                top: 0.4vw;
+                left: 2.5vw;
+                font-size: 1vw;
+                font-weight: 700;
+                color: #fff;
+            }
+        }
+
+        .mid1{
+            h5{
+                font-size: 2.2vw;
+                margin-top: 5vw;
+            }
+
+            p{
+                font-size: 1vw;
+                margin-top: 1vw;
+                font-weight: 600;
+                width: 87%;
+                line-height: 1.4;
+                color: rgb(154, 154, 154);
+            }
+
+            .elems{
+                width: 100%;
+                margin-top: 2vw;
+                display: flex;
+
+                .elem-img{
+                    width: 4vw;
+                    margin-left: 3vw;
+                    margin-bottom: 1vw;
+                }
+
+                h6{
+                    font-size: 1vw;
+                    width: 80%;
+                    text-align: center;
+                }
+
+                .elem2{
+                    border-left: 1px solid gray;
+                    border-right: 1px solid gray;
+                }
+
+                .elem{
+                    width: 55%;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                
+            }
+        }
+
+
+        .btm{
+            position: relative;
+            height: 10vh;
+            width: 13vw;
+            top: 15vh;
+
+            .box{
+                position: absolute;
+                top: 0vw;
+                left: 1vw;
+                padding: 1.5vw 5.8vw;
+                background-color: transparent;
+                border: 1px solid rgb(84, 80, 80);
+                transition: all ease 0.5s;
+            }
+
+            button{
+                position: absolute;
+                top: 1vw;
+                padding: 1.1vw 2vw;
+                font-size: 1.1vw;
+                text-transform: uppercase;
+                font-weight: 700;
+                color: #fff;
+                background-color: rgb(84, 80, 80);
+                outline: none;
+                border: 0;
+                transition: all ease 0.5s;
+            }
+
+            
+        }
+
+        .btm:hover{
+
+            .box{
+                top: 1vw;
+                left: 0;
+                border: 1px solid #FF0336;
+            }
+
+            .main-btn{
+                background-color: #FF0336;
+            }
+        }
+    }
+
+    .right{
+        height: 100%;
+        width: 50%;
+        padding-top: 4vw;
+        position: relative;
+
+        .elem1{
+            position: absolute;
+            display: flex;
+            gap: 7vw;
+
+            .text{
+                width: 6.5vw;
+            }
+        }
+
+        .elem2{
+            position: absolute;
+            display: flex;
+
+            .girl{
+                margin-top: 4vw;
+            }
+
+            .air{
+                position: absolute;
+                top: 21vw;
+                left: 23vw;
+                width: 5vw;
+                height: 5vw;
+            }
+        }
+    }
+}
