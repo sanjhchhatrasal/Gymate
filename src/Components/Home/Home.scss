@@ -545,7 +545,8 @@
                         position: relative;
                        /*  height: 10vh;
                         width: 15vw; */
-                        top: 30vw;
+                        top: 33vw;
+                        margin-top: 2vw;
         
                         .box{
                             position: absolute;
@@ -587,10 +588,554 @@
                             background-color: #FF0034;
                         }
                     }
+
+                    .four-elems{
+                        position: absolute;
+                        top: 20vw;
+                        left: -1vw;
+                        height: 25vh;
+                        width: 90%;
+                        display: flex;
+                        flex-shrink: 0;
+                        flex-wrap: wrap;
+                        gap: 1vw;
+
+
+                        .elem{
+                            height: 50%;
+                            width: 40%;
+                            margin-left: 1vw;
+
+                            .img-div{
+                                height: 4.5vw;
+                                width: 4.5vw;
+                                border-radius: 50%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                background-color: #333;
+                                transition: all ease 0.5s;
+
+                                img{
+                                    width: 3vw;
+                                }
+                            }
+
+                            .img-div:hover{
+                                background-color: #FF0034;
+                            }
+
+                            h6{
+                                width: 28%;
+                                position: absolute;
+                                font-size: 1.3vw;
+                            }
+                        }
+
+                        .elem1{
+                            h6{
+                                left: 7vw;
+                            }
+                        }
+
+                        .elem2{
+                            h6{
+                                left: 26vw;
+                            }
+                        }
+
+                        .elem3{
+                            h6{
+                                left: 7vw;
+                            }
+                        }
+
+                        .elem4{
+                            h6{
+                                left: 26vw;
+                            }
+                        }
+                    }
                 }
         
             }
         }
+    }
+
+    #page5{
+        position: relative;
+        top: -5vw;
+        width: 100%;
+
+        #page5-top{
+            position: relative;
+            width: 100%;
+            height: 100vh;
+
+            .bg-img{
+                position: absolute;
+                height: 100%;
+                width: 100%;
+            }
+
+            .small-bg-img{
+                position: absolute;
+                right: 0;
+            }
+
+            .top-up{
+                position: relative;
+                top: 13vw;
+                height: 20%;
+                width: 100%;
+
+
+                .title{
+                    position: absolute;
+                    left: 45%;
+                    top: -4vw;
+                    
+        
+                    .title-bg-img{
+                        position: absolute;
+                        width: 14vw;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+        
+                    h6{
+                        position: absolute;
+                        top: 0.5vw;
+                        left: 3vw;
+                        font-size: 1vw;
+                        color: #fff;
+                        white-space: nowrap;
+                    }
+                }
+
+                h1{
+                    position: absolute;
+                    font-size: 2vw;
+                    left: 40%;
+                }
+                p{
+                    position: absolute;
+                    font-weight: 500;
+                    font-size: 1vw;
+                    width: 30%;
+                    top: 3vw;
+                    left: 38%;
+                    text-align: center;
+                    line-height: 1.5;
+                    color:#7d7c7c;
+                }
+            }
+
+            .top-down{
+                height: 80%;
+                width: 100%;
+                position: relative;
+                top: 12vw;
+
+                .cards{
+                    display: flex;
+                    gap: 3vw;
+                    position: absolute;
+                    left: 10vw;
+
+                    .card{
+                        height: 60vh;
+                        width: 23vw;
+
+                        .card-top{
+                            height: 65%;
+                            width: 100%;
+                            position: relative;
+
+                            .trainer-bg{
+                                position: absolute;
+                            }
+
+                            .trainer{
+                                position: absolute;
+                                width: 14vw;
+                                left: 4vw;
+                                top: 1vw;
+                                filter: grayscale(100%);
+                                transition: all ease 0.5s;
+                            }
+
+                            .trainer:hover{
+                                filter: grayscale(0);
+                            }
+                        }
+                    
+
+                        .card-btm{
+                            height: 35%;
+                            width: 100%;
+                            position: relative;
+                            background-color: #fff;
+                            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25); /* Shadow only on the bottom */
+
+                            h6{
+                                position: absolute;
+                                font-size: 1.5vw;
+                                top: 1.8vw;
+                                left: 7vw;
+                            }
+
+                            p{
+                                position: absolute;
+                                top: 4vw;
+                                left: 7.5vw;
+                                font-weight: 600;
+                                font-size: 1vw;
+                                color: #7d7c7c;
+                            }
+
+                            .icons{
+                                display: flex;
+                                color: #7d7c7c;
+                                gap: 1vw;
+                                font-size: 1.2vw;
+                                position: absolute;
+                                top: 6.5vw;
+                                left: 7vw;
+                            }
+
+                            .arrow-div{
+                                 position: relative;
+                                 display: flex;
+                                 align-items: center;
+                                 justify-content: center;
+
+                                 .arrow{
+                                    position: absolute;
+                                    top: -1.7vw;
+                                 }
+
+
+                                .arrow-up{
+                                    position: absolute;
+                                    top: -1vw;
+                                    font-size: 1.3vw;
+                                }
+                            }
+
+                            .line{
+                                position: absolute;
+                                left: 47%;
+                                bottom: 0;
+                                height: 0.3vw;
+                                width: 10%;
+                                transition: all ease 0.5s;
+                                background-color: #FF0034;
+                            }
+
+                            .line1{
+                                left: 38%;
+                            }
+                        }
+
+                        .card-btm:hover{
+                            .line1{
+                                left: 0;
+                                width: 52%;
+                            }
+                            .line2{
+                                right: 0;
+                                width: 53%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #page5-btm{
+            height: 140vh;
+            width: 100%;
+            position: relative;
+            margin-top: 10vh;
+            border-bottom: 1px solid #e0e0e0;
+
+            .title{
+                position: absolute;
+                left: 40%;
+                top: 10vw;
+                
+    
+                .title-bg-img{
+                    position: absolute;
+                    width: 14vw;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+    
+                h6{
+                    position: absolute;
+                    top: 0.5vw;
+                    left: 3vw;
+                    font-size: 1vw;
+                    color: #fff;
+                    white-space: nowrap;
+                }
+            }
+
+            .box{
+                height: 55vh;
+                width: 80vw;
+                border: 10px solid #EFEFEF;
+                position: relative;
+                top: 24vw;
+                left: 10vw;
+
+
+                .box-left{
+                    overflow: hidden;
+                    position: absolute;
+                    top: -8vw;
+                    left: 3vw;
+                    height: 65vh;
+                    width: 30%;
+                    z-index: 99;
+                    border-top-right-radius: 11vw;
+                    background-color: #4784A3;
+                }
+
+                .box-right{
+                    position: absolute;
+                    z-index: 9;
+                    height: 45vh;
+                    width: 70%;
+                    left: 21vw;
+                    top: 1.6vw;
+                    background-color: #000;
+                    color: #fff;
+                    padding-left: 12vw;
+
+                    h6{
+                        top: 14.5vw;
+                        position: absolute;
+                        font-size: 1.4vw;
+                    }
+                    p{
+                        width: 67%;
+                        position: absolute;
+                        top: 7vw;
+                        line-height: 1.5;
+                        font-size: 1.05vw;
+                    }
+                    h5{
+                        font-weight: 400;
+                        position: absolute;
+                        top: 17vw;
+                        font-size: 1vw;
+                    }
+
+                    .colon{
+                        position: absolute;
+                        width: 4.5vw;
+                        top: 2vw;
+                    }
+
+                    .machine{
+                        position: absolute;
+                        bottom: 0;
+                        right: 10vw;
+                        width: 12vw;
+                        filter: brightness(100%) contrast(30%);
+                    }
+
+                    .arrow{
+                        height: 6vh;
+                        width: 7vw;
+                        position: absolute;
+                        top: 17vw;
+                        right: 2vw;
+                        gap: 0.5vw;
+                        display: flex;
+
+                        .arrow1{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 50%;
+                            height: 100%;
+                            background-color: #EFEFEF;
+                        }
+                        .arrow2{
+                            
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 50%;
+                            height: 100%;
+                            background-color: #EFEFEF;
+                        }
+
+                        .arrows{
+                            position: absolute;
+                            font-size: 1.2vw;
+                            color: #000;
+                        }
+                    }
+
+                   
+                        .arrow1:hover{
+                            background-color: #FF0034;
+
+                            .arrows{
+                                color: #fff;
+                           
+                        }
+                        }
+                        .arrow2:hover{
+                            background-color: #FF0034;
+                            color: #EFEFEF;
+
+                            .arrows{
+                                color: #fff;
+                           
+                        }
+                        }
+
+                        
+                }
+            }
+
+            .club{
+                position: absolute;
+                top: 55vw;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 3vw;
+                height: 20vh;
+                width: 100%;
+
+                img{
+                    width: 11vw;
+                }
+
+                img:hover{
+                    filter: brightness(30%);
+                }
+            }
+        }
+    }
+
+    #page6{
+        height: 150vh;
+        width: 100%;
+
+        #page6-top{
+            position: relative;
+            margin-top: 5vw;
+            height: 120vh;
+            width: 100%;
+
+            .title{
+                position: relative;
+                left: 40vw;
+                
+    
+                .title-bg-img{
+                    position: absolute;
+                    width: 15vw;
+                }
+    
+                h6{
+                    position: absolute;
+                    top: 0.7vw;
+                    left: 2.2vw;
+                    font-size: 1vw;
+                    color: #fff;
+                }
+            }
+
+            .train-hard{
+                position: absolute;
+                right: 0;
+            }
+
+            h2{
+                font-size: 2.3vw;
+                position: absolute;
+                top: 4vw;
+                left: 35vw;
+            
+            }
+
+            p{
+                position: absolute;
+                top: 8vw;
+                left: 30vw;
+                text-align: center;
+                line-height: 1.6;
+                width: 45%;
+                font-weight: 500;
+                font-size: 1vw;
+                color: #7d7c7c;
+            }
+
+            .images{
+                height: 85vh;
+                position: absolute;
+                top: 15vw;
+                left: 10vw;
+                width: 80vw;
+                display: flex;
+                flex-wrap: wrap;
+
+                .img{
+                    position: absolute;
+                    overflow: hidden;
+
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .img1{
+                    height: 64%;
+                    width: 49%;
+                }
+
+                .img2{
+                    right: 0;
+                    height: 29%;
+                    width: 50%;
+                }
+
+                .img3{
+                    bottom: 0;
+                    height: 34%;
+                    width: 24%;
+                }
+                .img4{
+                    bottom: 0;
+                    left: 20vw;
+                    height: 34%;
+                    width: 24%;
+                }
+
+                .img5{
+                    height: 69%;
+                    width: 50%;
+                    right: 0;
+                    bottom: 0;
+                }
+            }
+    
+        }
+
+        
     }
 
     

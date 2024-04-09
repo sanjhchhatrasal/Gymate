@@ -1,45 +1,39 @@
 import React from 'react'
 import './Home.scss'
-import RunningGirl from '../RunningGirl/RunningGirl'
-import hero from '../../assets/images/heroimg.jpg'
-import titleBg from '../../assets/images/bg-title.svg'
-import { FaArrowRight } from "react-icons/fa";
+import RunningGirl from '../RunningGirl/RunningGirl';
+import { FaArrowRight, FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
-import bgimg from '../../assets/images/background.jpg';
-import cardimg from '../../assets/images/card-bg.jpg';
-import timer from '../../assets/images/timer.png';
-import workout from '../../assets/images/workout.png';
-import nutritions from '../../assets/images/nutritions.png';
-import cycle from '../../assets/images/cycle.png';
-import girlcycling from '../../assets/images/girl-cycling.jpg';
-import karate from '../../assets/images/karate.png';
-import girlkarate from '../../assets/images/girl-karate.jpg';
-import power from '../../assets/images/power.png';
-import boypower from '../../assets/images/boy-power.jpg';
-import meditation from '../../assets/images/meditation.png';
-import girlmeditation from '../../assets/images/girl-meditation.jpg';
-import martialArt from '../../assets/images/martial-arts.png';
-import boyMartialArts from '../../assets/images/boy-martial-arts.jpg';
-import workoutGirl from '../../assets/images/workout-girl.png';
-import boyWorkout from '../../assets/images/boy-workout.jpg';
-import cycleColor from '../../assets/images/cycle-color.png';
-import karateColor from '../../assets/images/karate-color.png';
-import powerColor from '../../assets/images/power-color.png';
-import meditationColor from '../../assets/images/me.png';
-import martialArtsColor from '../../assets/images/martial-arts-color.png';
-import workoutGirlColor from '../../assets/images/workout-girl-color.png';
-import chooseBg from '../../assets/images/choose-bg.jpg';
-import ctaBg from '../../assets/images/cta-bg.png';
-import fitness from '../../assets/images/fitness.png';
-import gymEquipment from '../../assets/images/gym-equipment.png';
-import gymMachines from '../../assets/images/gym-machines.png';
-import bottle from '../../assets/images/bottle-water.png';
-import mainImgBoy from '../../assets/images/main-img-boy.png';
-import play from '../../assets/images/play.png';
+import { FaInstagram } from "react-icons/fa";
+import { CiMail } from "react-icons/ci";
+import { IoIosArrowUp } from "react-icons/io";
+import { FaArrowLeftLong } from "react-icons/fa6";
+import { FaArrowRightLong } from "react-icons/fa6";
+/*  import anaJune from '../../assets/images/ana june.png';
+import atrleticClub from '../../assets/images/atrletic-club.png';
+import boyAbs from '../../assets/images/boy-abs.jpg';
+import colon from '../../assets/images/colon.png';
+import fitnessClub from '../../assets/images/fitness-club.png';
+import girlBoxing from '../../assets/images/girl-boxing.jpg';
+import girlGymnastic from "../../assets/images/girl-gymnastic.jpg";
+import girlLifting from '../../assets/images/girl-lifting.jpg';
+import girlRope from '../../assets/images/girl-rope.jpg';
+import gymClub from '../../assets/images/gym-club.png';
+import johnLewis from '../../assets/images/John-lewis.png';
+import jonathanDoe from '../../assets/images/jonathan doe.png';
+import mountainsArrow from '../../assets/images/mountain-arrow.png';
+import muscle from '../../assets/images/muscle.png';
+import page5Bg from '../../assets/images/page5-bg.png';
+import page5BgDumble from '../../assets/images/page5-bg-dumble.png';
+import page6BoyRope from '../../assets/images/page6-boy-rope.jpg';
+import powerLifting from '../../assets/images/power-lifting.png';
+import testimonialGirl from '../../assets/images/testimonial-girl.jpg';
+import testimonialShape from '../../assets/images/testimonial-shape.svg';
+import trainHard from '../../assets/images/train-hard.png';
+import trainerBg from '../../assets/images/trainer-bg.png';  */
 
-
+import { hero, titleBg, bgimg, cardimg, timer, workout, nutritions, cycle, girlcycling, karate, girlkarate, power, boypower, meditation, girlmeditation, martialArt, boyMartialArts, workoutGirl, boyWorkout, cycleColor, karateColor, powerColor, meditationColor, martialArtsColor, workoutGirlColor, chooseBg, ctaBg, fitness, gymEquipment, gymBag, bottle, mainImgBoy, play , anaJune, atrleticClub, boyAbs, colon, fitnessClub, girlBoxing, girlGymnastic, girlLifting, girlRope, gymClub, johnLewis, jonathanDoe, mountainsArrow, muscle, page5Bg, page5BgDumble, page6BoyRope, powerLifting, testimonialGirl, testimonialShape, trainHard, trainerBg } from '../Images/index';
 
 function Home() {
   return (
@@ -218,6 +212,32 @@ function Home() {
               </div>
               <h1>We Can Give A Shape Of Your Body Here!</h1>
               <p>At Gymate, we are dedicated to helping you achieve the body of your dreams. Our expert trainers and nutritionists will work with you to create a personalized fitness and nutrition plan that helps you reach your specific goals.</p>
+              <div className="four-elems">
+                <div className="elem elem1">
+                  <div className="img-div">
+                    <img className='images' src={fitness} alt="" />
+                    <h6>Free Fitness Training</h6>
+                  </div>
+                </div>
+                <div className="elem elem2">
+                <div className="img-div">
+                    <img className='images' src={gymEquipment} alt="" />
+                    <h6>Modern Gym Equipments</h6>
+                  </div>
+                </div>
+                <div className="elem elem3">
+                <div className="img-div">
+                    <img className='images' src={gymBag} alt="" />
+                    <h6>Gym Bag Equipments</h6>
+                  </div>
+                </div>
+                <div className="elem elem4">
+                <div className="img-div">
+                    <img className='images' src={bottle} alt="" />
+                    <h6>Fresh Bottle Water</h6>
+                  </div>
+                </div>
+              </div>
               <div className="btn">
             <button className='box'></button>
             <button className='main-btn'>OUR CLASSES <FaArrowRight className='arrow'/></button>
@@ -225,6 +245,160 @@ function Home() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div id="page5">
+         <div id="page5-top">
+          <img className='bg-img' src={page5Bg} alt="" />
+          <img className='small-bg-img' src={page5BgDumble} alt="" />
+          <div className="top-up">
+          <div className="title">
+             <img className='title-bg-img' src={titleBg} alt="" />
+             <h6>GYM TRAINERS</h6>
+              </div>
+            <h1>Team Of Expert Coaches</h1>
+            <p>Expert team of coaches helps you succeed in any goal,
+              personalized guidance and motivation provided!</p>
+          </div>
+          <div className="top-down">
+            <div className="cards">
+              <div className="card card1">
+                <div className="card-top">
+                  <img className='trainer-bg' src={trainerBg} alt="" />
+                  <img className='trainer' src={johnLewis} alt="" />
+                </div>
+                <div className="card-btm">
+                <div className="arrow-div">
+                  <img className='arrow' src={mountainsArrow} alt="" />
+                  <IoIosArrowUp  className='arrow-up'/>
+                  </div>
+                  <h6>John Lewis</h6>
+                  <p>Yoga Trainer</p>
+                  <div className="icons">
+                    <FaFacebookF/>
+                    <FaTwitter />
+                    <FaInstagram />
+                    <CiMail />
+                  </div>
+                  <div className="line line1"></div>
+                  <div className="line line2"></div>
+                </div>
+              </div>
+              <div className="card card2">
+              <div className="card-top">
+                  <img className='trainer-bg' src={trainerBg} alt="" />
+                  <img className='trainer' src={jonathanDoe} alt="" />
+                </div>
+                <div className="card-btm">
+                  <div className="arrow-div">
+                  <img className='arrow' src={mountainsArrow} alt="" />
+                  <IoIosArrowUp  className='arrow-up'/>
+                  </div>
+                  <h6>Jonathan Doe</h6>
+                  <p>Crossfit Trainer</p>
+                  <div className="icons">
+                    <FaFacebookF />
+                    <FaTwitter />
+                    <FaInstagram />
+                    <CiMail />
+                  </div>
+                  <div className="line line1"></div>
+                  <div className="line line2"></div>
+                </div>
+              </div>
+              <div className="card card3">
+              <div className="card-top">
+                  <img className='trainer-bg' src={trainerBg} alt="" />
+                  <img className='trainer' src={anaJune} alt="" />
+                </div>
+                <div className="card-btm">
+                <div className="arrow-div">
+                  <img className='arrow' src={mountainsArrow} alt="" />
+                  <IoIosArrowUp  className='arrow-up'/>
+                  </div>
+                  <h6>Ana June</h6>
+                  <p>Personal Trainer</p>
+                  <div className="icons">
+                    <FaFacebookF />
+                    <FaTwitter />
+                    <FaInstagram />
+                    <CiMail />
+                  </div>
+                  <div className="line line1"></div>
+                  <div className="line line2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+         <div id="page5-btm">
+         <div className="title">
+             <img className='title-bg-img' src={titleBg} alt="" />
+             <h6>TESTIMONIALS</h6>
+              </div>
+              <div className="box">
+                <div className="box-left">
+                  <div className="blue-box">
+                    <img src={testimonialGirl} alt="" />
+                  </div>
+                </div>
+                <div className="box-right">
+                  <img className='colon' src={colon} alt="" />
+                  <p>“I've been a member of Gymate for the past 6 months and it has been an amazing experience. The trainers are knowledgeable and supportive, the equipment is top-notch, and the community of members is friendly and encouraging.”</p>
+                  <h6>Harry Potter</h6>
+                  <h5>CEO of Hogwarts</h5>
+                  <img className='machine' src={testimonialShape} alt="" />
+                  <div  className="arrow">
+                    <div className="arrow1">
+                    <FaArrowLeftLong className='arrows'/>
+                    </div>
+                    <div className="arrow2">
+                    <FaArrowRightLong className='arrows'/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="club">
+                <img src={atrleticClub} alt="" />
+                <img src={fitnessClub} alt="" />
+                <img src={gymClub} alt="" />
+                <img src={muscle} alt="" />
+                <img src={powerLifting} alt="" />
+              </div>
+         </div>
+      </div>
+
+      <div id="page6">
+        <div id="page6-top">
+          <img className='train-hard' src={trainHard} alt="" />
+        <div className="title">
+             <img className='title-bg-img' src={titleBg} alt="" />
+             <h6>GYMAT GALLERY</h6>
+              </div>
+
+              <h2>Our Workplace Gallery</h2>
+              <p>Our Workplace Gallery features modern office, team collaboration, and fun culture.
+                Attracts talents and showcases company's work atmosphere.</p>
+
+                <div className="images">
+                  <div className="img img1">
+                    <img src={girlBoxing} alt="" />
+                  </div>
+                  <div className="img img2">
+                    <img src={girlLifting} alt="" />
+                  </div>
+                  <div className="img img3">
+                    <img src={girlRope} alt="" />
+                  </div>
+                  <div className="img img4">
+                    <img src={boyAbs} alt="" />
+                  </div>
+                  <div className="img img5">
+                    <img src={girlGymnastic} alt="" />
+                  </div>
+                </div>
+        </div>
+        <div id="page6-btm"></div>
       </div>
       
     </div>
