@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Home.scss'
 import RunningGirl from '../RunningGirl/RunningGirl';
 import { FaArrowRight, FaFacebookF } from "react-icons/fa";
@@ -10,36 +10,35 @@ import { CiMail } from "react-icons/ci";
 import { IoIosArrowUp } from "react-icons/io";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
-/*  import anaJune from '../../assets/images/ana june.png';
-import atrleticClub from '../../assets/images/atrletic-club.png';
-import boyAbs from '../../assets/images/boy-abs.jpg';
-import colon from '../../assets/images/colon.png';
-import fitnessClub from '../../assets/images/fitness-club.png';
-import girlBoxing from '../../assets/images/girl-boxing.jpg';
-import girlGymnastic from "../../assets/images/girl-gymnastic.jpg";
-import girlLifting from '../../assets/images/girl-lifting.jpg';
-import girlRope from '../../assets/images/girl-rope.jpg';
-import gymClub from '../../assets/images/gym-club.png';
-import johnLewis from '../../assets/images/John-lewis.png';
-import jonathanDoe from '../../assets/images/jonathan doe.png';
-import mountainsArrow from '../../assets/images/mountain-arrow.png';
-import muscle from '../../assets/images/muscle.png';
-import page5Bg from '../../assets/images/page5-bg.png';
-import page5BgDumble from '../../assets/images/page5-bg-dumble.png';
-import page6BoyRope from '../../assets/images/page6-boy-rope.jpg';
-import powerLifting from '../../assets/images/power-lifting.png';
-import testimonialGirl from '../../assets/images/testimonial-girl.jpg';
-import testimonialShape from '../../assets/images/testimonial-shape.svg';
-import trainHard from '../../assets/images/train-hard.png';
-import trainerBg from '../../assets/images/trainer-bg.png';  */
 
-import { hero, titleBg, bgimg, cardimg, timer, workout, nutritions, cycle, girlcycling, karate, girlkarate, power, boypower, meditation, girlmeditation, martialArt, boyMartialArts, workoutGirl, boyWorkout, cycleColor, karateColor, powerColor, meditationColor, martialArtsColor, workoutGirlColor, chooseBg, ctaBg, fitness, gymEquipment, gymBag, bottle, mainImgBoy, play , anaJune, atrleticClub, boyAbs, colon, fitnessClub, girlBoxing, girlGymnastic, girlLifting, girlRope, gymClub, johnLewis, jonathanDoe, mountainsArrow, muscle, page5Bg, page5BgDumble, page6BoyRope, powerLifting, testimonialGirl, testimonialShape, trainHard, trainerBg } from '../Images/index';
+import { hero, titleBg, bgimg, cardimg, timer, workout, nutritions, cycle, girlcycling, karate, girlkarate, power, boypower, meditation, girlmeditation, martialArt, boyMartialArts, workoutGirl, boyWorkout, cycleColor, karateColor, powerColor, meditationColor, martialArtsColor, workoutGirlColor, chooseBg, ctaBg, fitness, gymEquipment, gymBag, bottle, mainImgBoy, play , anaJune, atrleticClub, boyAbs, colon, fitnessClub, girlBoxing, girlGymnastic, girlLifting, girlRope, gymClub, johnLewis, jonathanDoe, mountainsArrow, muscle, page5Bg, page5BgDumble, page6BoyRope, powerLifting, testimonialGirl, testimonialShape, trainHard, trainerBg , page7Bg1 , page7Bg2 , page7Card1 , page7Card2 , page7Card3 , page8Bg } from '../Images/index';
 
 function Home() {
+
+  const [height, setHeight] = useState('');
+  const [weight, setWeight] = useState('');
+  const [bmi, setBMI] = useState('');
+  const [status, setStatus] = useState('');
+
+  // Function to calculate BMI and status
+  const calculateBMI = () => {
+      const heightMeters = height / 100; // Convert height from cm to meters
+      const bmiValue = weight / (heightMeters * heightMeters);
+      setBMI(bmiValue.toFixed(1)); // Round BMI to one decimal place
+
+      if (bmiValue < 18.5) {
+          setStatus('Underweight');
+      } else if (bmiValue >= 18.5 && bmiValue < 25) {
+          setStatus('Normal');
+      } else {
+          setStatus('Overweight');
+      }
+  };
+
   return (
     <div className='main-home'>
       <div id="page1">
-        <img className='main-img' src={hero} alt="" />
+        <img className='main-img'  src={hero} alt="" />
         <div className="right-text">
           <div className="title">
           <img className='title-bg' src={titleBg} alt="" />
@@ -398,9 +397,179 @@ function Home() {
                   </div>
                 </div>
         </div>
-        <div id="page6-btm"></div>
+        <div id="page6-btm">
+          <div className="btm-left">
+            <h1>Let's Calculate Your <span>BMI</span></h1>
+            <p>Easily determine your body mass index with our accurate calculation tool.</p>
+            <div className="input">
+              <div className="weight">
+                <input
+                 type="text" 
+                placeholder='Weight / kg' 
+                value={weight}
+                 onChange={(e) => setWeight(e.target.value)}/>
+                <h6>Your BMI is: <span>{bmi}</span></h6>
+              </div>
+              <div className="height">
+                <input
+                 type="text"
+                 placeholder='Height / cm' 
+                value={height}
+                onChange={(e) => setHeight(e.target.value)}/>
+                <h6>Your weight is: <span>{status}</span></h6>
+              </div>
+            </div>
+            <button onClick={calculateBMI}>CALCULATE</button>
+          </div>
+          <div className="btm-right">
+            <img src={page6BoyRope} alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div id="page7">
+        <img  className="main-bg" src={bgimg} alt="" />
+        <img className='bg1' src={page7Bg1} alt="" />
+        <img className='bg2' src={page7Bg2} alt="" />
+
+        <div className="content">
+        <div className="title">
+             <img className='title-bg-img' src={titleBg} alt="" />
+             <h6>PRICING CHART</h6>
+              </div>
+              <h1>Exclusive Pricing Plan</h1>
+              <p>Gymat an unknown printer took a galley of type and scrambled make a type specimen book.</p>
+
+              <div className="cards">
+                <div className="card card1">
+                  <div className="card-top">
+                    <img className='card-bg1' src={page7Card1} alt="" />
+                     
+                    <div className="box">
+                      <h6>Beginners</h6>
+                    </div>
+                  </div>
+
+                  <div className="card-btm">
+                    <div className="plan">
+                      <h6>$</h6>
+                      <h1>39</h1>
+                      <p>p/m</p>
+                    </div>
+                    <div className="h6">
+                      <h6>Free Hand</h6>
+                      <h6>Gym Fitness</h6>
+                      <h6>Weight Loss</h6>
+                      <h6>Personal Trainer</h6>
+                      <h6>Cycling</h6>
+                    </div>
+                    <div className="btn">
+            <button className='box'></button>
+            <button className='main-btn'>PURCHASE NOW <FaArrowRight className='arrow'/></button>
+          </div>
+                </div>
+                </div>
+                <div className="card card2">
+                <div className="card-top">
+                    <img src={page7Card2} alt="" />
+                    
+                    <div className="box">
+                      <h6>Beginners</h6>
+                    </div>
+                  </div>
+                  <div className="card-btm">
+                    <div className="plan">
+                      <h6>$</h6>
+                      <h1>65</h1>
+                      <p>p/m</p>
+                    </div>
+                    <div className="h6">
+                      <h6>Free Hand</h6>
+                      <h6>Gym Fitness</h6>
+                      <h6>Weight Loss</h6>
+                      <h6>Personal Trainer</h6>
+                      <h6>Cycling</h6>
+                    </div>
+                    <div className="btn">
+            <button className='box'></button>
+            <button className='main-btn'>PURCHASE NOW <FaArrowRight className='arrow'/></button>
+          </div>
+                </div>
+                </div>
+                <div className="card card3">
+                <div className="card-top">
+                    <img src={page7Card3} alt="" />
+                    
+                    <div className="box">
+                      <h6>Beginners</h6>
+                    </div>
+                  </div>
+                  <div className="card-btm">
+                    <div className="plan">
+                      <h6>$</h6>
+                      <h1>100</h1>
+                      <p>p/m</p>
+                    </div>
+                    <div className="h6">
+                      <h6>Free Hand</h6>
+                      <h6>Gym Fitness</h6>
+                      <h6>Weight Loss</h6>
+                      <h6>Personal Trainer</h6>
+                      <h6>Cycling</h6>
+                    </div>
+                    <div className="btn">
+            <button className='box'></button>
+            <button className='main-btn'>PURCHASE NOW <FaArrowRight className='arrow'/></button>
+          </div>
+                </div>
+                </div>
+             
+        </div>
       </div>
       
+    </div>
+
+    <div id="page8">
+      <div id="page8-top">
+      <div className="title">
+             <img className='title-bg-img' src={titleBg} alt="" />
+             <h6>LATEST BLOG</h6>
+              </div>
+              <h1>Our Recent News</h1>
+              <p>Gymat an unknown printer took a galley of type and scrambled make a type specimen book.</p>
+
+              <div className="cards">
+                <div className="card card1">
+                  <button className='date'>22.03.2022 </button>
+                  <h6>Yoga For Everyone in 2023</h6>
+                  <p>This is program designed to make the practice of yoga beneficial for people of all ages, abilities, and backgrounds.</p>
+                  <button className='btn'>READ MORE <FaArrowRight className='arrow'/></button>
+                </div>
+                <div className="card card2">
+                <button className='date'> 13.09.2022</button>
+                  <h6>Getting Back Into CrossFit After Vacation</h6>
+                  <p>Learn how to ease back into your CrossFit routine after a vacation with tips and strategies for success.</p>
+                  <button className='btn'>READ MORE <FaArrowRight className='arrow'/></button>
+                </div>
+                <div className="card card3">
+                <button className='date'>28.06.2022 </button>
+                  <h6>Meet Fitness Ambassador Grace</h6>
+                  <p>Get to know Grace, a fitness enthusiast and dedicated ambassador who is passionate about helping others reach their fitness goals.</p>
+                  <button className='btn'>READ MORE <FaArrowRight className='arrow'/></button>
+                </div>
+              </div>
+      </div>
+      <div id="page8-btm">
+        <img src={page8Bg} alt="" />
+        <h1>Need a Fitness Trainer?</h1>
+        <h2><span>Call:</span> +123-456789</h2>
+        <div className="btn">
+            <button className='box'></button>
+            <button className='main-btn'>PURCHASE NOW</button>
+          </div>
+      </div>
+    </div>
+
     </div>
   )
 }

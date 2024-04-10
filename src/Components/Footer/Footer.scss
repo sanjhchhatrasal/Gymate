@@ -1,10 +1,10 @@
 .main-footer{
-    height: 60vh;
+    height: 55vh;
     width: 100%;
     display: flex;
-    gap: 10vw;
+    gap: 13vw;
     justify-content: center;
-    margin-top: 5vw;
+    margin-top: 8vw;
 
     .elem1{
         width: 25%;
@@ -65,7 +65,7 @@
 
         h6:hover{
             color: #FF0366;
-            font-weight: 700;
+            font-weight: 600;
         }
     }
 

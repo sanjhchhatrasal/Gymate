@@ -55,4 +55,11 @@ export { default as testimonialGirl } from '../../assets/images/testimonial-girl
 export { default as testimonialShape } from '../../assets/images/testimonial-shape.svg';
 export { default as trainHard } from '../../assets/images/train-hard.png';
 export { default as trainerBg } from '../../assets/images/trainer-bg.png';
+export { default as page7Bg1 } from '../../assets/images/page7-bg1.png';
+export { default as page7Bg2 } from '../../assets/images/page7-bg2.png';
+export { default as page7Card1 } from '../../assets/images/page7-card1.jpg';
+export { default as page7Card2 } from '../../assets/images/page7-card2.jpg';
+export { default as page7Card3 } from '../../assets/images/page7-card3.jpg';
+export { default as page8Bg } from '../../assets/images/page8-bg.jpg';
+
 
