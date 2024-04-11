@@ -156,7 +156,7 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 480px){
 
     .main-running{
         height: 130vh;
@@ -168,29 +168,30 @@
     
             .top{
                 position: relative;
-                left: 15vw;
+                left: 14vw;
+                top: -5vw;
     
                 .titlebg{
                     position: absolute;
-                    width: 40vw;
+                    width: 50vw;
                 }
                 h1{
-                    top: 2vw;
-                    left: 8vw;
-                    font-size: 2.8vw;
+                    top: 2.2vw;
+                    left: 11vw;
+                    font-size: 3.5vw;
                 }
             }
     
             .mid1{
                 h5{
-                    font-size: 6.5vw;
+                    font-size: 6.8vw;
                     margin-left: -5vw;
                     text-align: center;
                     margin-top: 10vw;
                 }
     
                 p{
-                    font-size: 3.2vw;
+                    font-size: 3.6vw;
                     margin-top: 4vw;
                     font-weight: 500;
                     width: 90%;
@@ -204,14 +205,14 @@
                     flex-direction: column;
     
                     .elem-img{
-                        width: 10vw;
+                        width: 17vw;
                         margin-left: 4vw;
-                        margin-bottom: 1vw;
+                        margin-bottom: 7vw;
                     }
     
                     h6{
-                        font-size: 4vw;
-                        margin-left: -6vw;
+                        font-size: 4.5vw;
+                        margin-left: -3vw;
                         width: 80%;
                         text-align: center;
                         margin-bottom: 2vw;
@@ -235,18 +236,18 @@
     
     
             .btm{
-                top: 8vh;
+                top: 10vh;
                 left: 20vw;
     
                 .box{
-                    top: -2vw;
-                    left: 3vw;
-                    padding: 4vw 16.5vw;
+                    top: -3vw;
+                    left: 4vw;
+                    padding: 5vw 20vw;
                 }
     
                 button{
-                    padding: 3vw 6vw;
-                    font-size: 3vw;
+                    padding: 4vw 8vw;
+                    font-size: 3.5vw;
                     white-space: nowrap; 
                 }
     

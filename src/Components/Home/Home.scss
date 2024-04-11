@@ -1713,11 +1713,13 @@
             .card-content{
 
                 h6{
-                    font-size: 4.5vw !important;
+                    font-size: 5vw !important;
+                    margin-top: 3vw;
+                    margin-bottom: 3vw;
                 }
 
                 p{
-                    font-size: 2.5vw !important;
+                    font-size: 3.5vw !important;
                 }
             }
         }
@@ -1752,26 +1754,25 @@
 }
 
 #page3{
-    height: 280vh !important;
+    height: 270vh !important;
     margin-top: 15vw !important;
 
     .title{
-        left: 25vw !important;
+        left: 20vw !important;
 
         .title-bg-img{
-            width: 45vw !important;
+            width: 55vw !important;
         }
 
         h6{
-            top: 1.5vw !important;
-            left: 4.5vw !important;
-            font-size: 2.8vw !important;
-            color: #fff;
+            top: 2vw !important;
+            left: 6vw !important;
+            font-size: 3.4vw !important;
         }
     }
 
     h5{
-        font-size: 6.5vw !important;
+        font-size: 7.3vw !important;
         line-height: 1.5;
         text-align: center;
         padding-top: 10vw !important;
@@ -1786,19 +1787,17 @@
             width: 85vw !important;
 
             .text-container{
-                position: absolute;
-                top: 40vw !important;
+                top: 60vw !important;
                 margin-left: 4vw !important;
 
                 h6{
-                    font-size: 5vw !important;
-                    color: #fff;
+                    font-size: 6.4vw !important;
                 }
 
                 .time{
 
                     p{
-                        font-size: 3vw !important;
+                        font-size: 4vw !important;
                     }
 
                    
@@ -1806,20 +1805,20 @@
             }
 
             .side-icon{
-                top: 10vw !important;
-                height: 9vw !important;
-                width: 23vw !important;
+                top: 20vw !important;
+                height: 12vw !important;
+                width: 25vw !important;
 
 
                 .side-icon-img{
-                    left: 13vw !important;
-                    height: 6vw !important;
-                    width: 6vw !important;
+                    left: 14vw !important;
+                    height: 7.5vw !important;
+                    width: 7.5vw !important;
                 }
                 .side-icon-img-color{
-                    left: 13vw !important;
-                    height: 6vw !important;
-                    width: 6vw !important;
+                    left: 14vw !important;
+                    height: 7.5vw !important;
+                    width: 7.5vw !important;
                 }
                 
             }
@@ -1832,47 +1831,49 @@
 #page4{
 
     #page4-top{
-        height: 35vh !important;
+        height: 40vh !important;
 
         h1{
             left: 0vw !important;
-            top: 7vw !important;
+            top: 15vw !important;
             text-align: center;
-            font-size: 5.5vw !important;
+            font-size: 7.2vw !important;
             width: 100% !important;
         }
 
         .btn{
+            top: 52vw;
+            left: 20vw;
             margin-top: 0vw !important;
 
             .box{
-                padding: 3.5vw 14vw !important;
-                left: 33vw !important;
-                top: 24vw !important;
+                padding: 5vw 22vw !important;
+                left: 5vw !important;
+                top: -4vw !important;
             }
 
             .main-btn{
-                top: 27vw !important;
-                left: 30vw !important;
-                font-size: 2.4vw !important;
-                padding: 3vw 4vw !important;
+                top: 0vw !important;
+                left: 0vw !important;
+                font-size: 4vw !important;
+                padding: 3.5vw 5vw !important;
             }
         }
 
         .btn:hover {
             .box{
-                top: 27vw !important;
-                left: 30vw !important;
+                top: 0vw !important;
+                left: 0vw !important;
             }
         }
     }
 
     #page4-btm{
-        height: 150vh !important;
+        height: 135vh !important;
 
         .page4-content{
             margin-top: 6vw;
-            margin-left: 10vw;
+            margin-left: 7vw !important;
             display: flex;
             flex-direction: column;
 
@@ -1881,30 +1882,31 @@
             width: 100% !important;
             
             .main-boy-img{
-                width: 75vw !important;
+                width: 85vw !important;
             }
 
             .play{
-                top: 35vw !important;
+                top: 40vw !important;
                 left: 30vw !important;
-                height: 9vw !important;
-                width: 9vw !important;
+                height: 12vw !important;
+                width: 12vw !important;
 
                 .play-btn{
-                    width: 3vw !important;
+                    width: 4vw !important;
                 }
             }
 
             .line1{
-                top: 62vw !important;
-                width: 0.8vw !important;
-                height: 30vw !important;
+                left: -4vw !important;
+                top: 61vw !important;
+                width: 1.2vw !important;
+                height: 45vw !important;
             }
 
             .line2{
-                left: 73vw !important;
-                width: 0.9vw !important;
-                height: 75vw !important;
+                left: 82vw !important;
+                width: 1.2vw !important;
+                height: 80vw !important;
             }
            }
 
@@ -1912,48 +1914,49 @@
                 height: 50% !important;
                 width: 100% !important;
                 margin-left: -5vw;
+                margin-top: -15vw;
 
                 .title{
                     left: 20vw !important;
                     
         
                     .title-bg-img{
-                        width: 35vw !important;
+                        width: 50vw !important;
                     }
         
                     h6{
-                        top: 1vw !important;
-                        left: 5vw !important;
-                        font-size: 2.5vw !important;
+                        top: 1.5vw !important;
+                        left: 7vw !important;
+                        font-size: 4vw !important;
                     }
                 }
 
                 h1{
-                    font-size: 7vw !important;
+                    font-size: 8vw !important;
                     position: absolute;
-                    top: 9vw !important;
-                    width: 90% !important;
+                    top: 12vw !important;
+                    width: 95% !important;
                 }
 
                 p{
                     width: 90% !important;
-                    top: 30vw !important;
-                    font-size: 2.5vw !important;
+                    top: 33vw !important;
+                    font-size: 3.6vw !important;
                 }
 
                 .btn{
-                    top: 83vw !important;
+                    top: 120vw !important;
                     left: 20vw !important;
     
                     .box{
-                        padding: 2.5vw 13vw !important;
-                        left: 2vw !important;
-                        top: -1vw !important;
+                        padding: 4.5vw 19.4vw !important;
+                        left: 3vw !important;
+                        top: -3vw !important;
                     }
     
                     .main-btn{
-                        font-size: 2.3vw !important;
-                        padding: 2vw 3.5vw !important;
+                        font-size: 3.2vw !important;
+                        padding: 3.5vw 6vw !important;
     
                         .arrow{
                            margin-left: 1vw !important;
@@ -1973,50 +1976,50 @@
                 }
 
                 .four-elems{
-                    top: 50vw !important;
+                    top: 70vw !important;
+                    gap: 5vw !important;
 
 
                     .elem{
-                        height: 50%;
+                        height: 45% !important;
                         width: 40%;
                         margin-left: 1vw;
 
                         .img-div{
-                            height: 12vw !important;
-                            width: 12vw !important;
-                            border-radius: 50%;
+                            height: 15vw !important;
+                            width: 15vw !important;
 
                             img{
-                                width: 7vw !important;
+                                width: 10vw !important;
                             }
                         }
 
                         h6{
-                            font-size: 2.5vw !important;
+                            font-size: 3.7vw !important;
                         }
                     }
 
                     .elem1{
                         h6{
-                            left: 16vw !important;
+                            left: 17vw !important;
                         }
                     }
 
                     .elem2{
                         h6{
-                            left: 55vw !important;
+                            left: 59vw !important;
                         }
                     }
 
                     .elem3{
                         h6{
-                            left: 16vw !important;
+                            left: 17vw !important;
                         }
                     }
 
                     .elem4{
                         h6{
-                            left: 55vw !important;
+                            left: 59vw !important;
                         }
                     }
                 }
@@ -2029,60 +2032,59 @@
 #page5{
     top: 0vw !important;
     width: 100%;
-    margin-top: 35vh !important;
+    margin-top: 30vh !important;
 
     #page5-top{
         height: 200vh !important;
 
 
         .top-up{
-            position: relative;
-            top: 13vw;
-            height: 20%;
-            width: 100%;
+            top: 12vw !important;
 
 
             .title{
-                left: 30vw !important; 
+                left: 20vw !important; 
                 
     
                 .title-bg-img{
-                    width: 35vw !important;
+                    width: 50vw !important;
                 }
     
                 h6{
-                    top: 1.5vw !important;
-                    left: 6vw !important;
-                    font-size: 2.7vw !important;
+                    top: 1.9vw !important;
+                    left: 8vw !important;
+                    font-size: 3.8vw !important;
                 }
             }
 
             h1{
-                font-size: 8vw !important;
-                top: 3vw !important;
+                font-size: 10vw !important;
+                top: 6vw !important;
                 text-align: center;
                 left: 0 !important;
             }
             p{
-                font-size: 3.1vw !important;
-                width: 90% !important;
-                top: 25vw !important;
-                left: 5vw !important;
+                font-size: 4.2vw !important;
+                width: 95% !important;
+                top: 33vw !important;
+                left: 1vw !important;
             }
         }
 
         .top-down{
             height: 90% !important;
             width: 100%;
-            top: 10vw !important;
+            top: 0vw !important;
 
             .cards{
                 flex-direction: column;
-                left: 20vw !important;
+                left: 15vw !important;
+                margin-bottom: 5vw !important;
 
                 .card{
-                    height: 50vh !important;
+                    height: 45vh !important;
                     width: 60vw !important;
+                    margin-bottom: 20vw;
 
                     .card-top{
                         height: 65%;
@@ -2090,11 +2092,11 @@
 
                         .trainer-bg{
                             position: absolute;
-                            width: 60vw !important;
+                            width: 70vw !important;
                         }
 
                         .trainer{
-                            width: 40vw !important;
+                            width: 50vw !important;
                             left: 11vw !important;
                             top: -1vw !important;
                         }
@@ -2102,39 +2104,41 @@
                 
 
                     .card-btm{ 
+                        height: 45% !important;
+                        width: 125% !important;
 
                         h6{
-                            font-size: 5vw !important;
+                            font-size: 6.5vw !important;
                             top: 5vw !important;
-                            left: 13vw !important;
+                            left: 14vw !important;
                         }
 
                         p{
-                            top: 12vw !important;
-                            left: 18vw !important;
-                            font-size: 3vw !important;
+                            top: 14vw !important;
+                            left: 20vw !important;
+                            font-size: 4vw !important;
                         }
 
                         .icons{
-                            gap: 2vw !important;
-                            font-size: 4vw !important;
-                            top: 18vw !important;
-                            left: 16vw !important;
+                            gap: 4vw !important;
+                            font-size: 5vw !important;
+                            top: 25vw !important;
+                            left: 20vw !important;
                         }
 
                         .arrow-div{
 
                              .arrow{
                                 position: absolute;
-                                width: 20vw ;
-                                top: -4vw !important;
+                                width: 25vw ;
+                                top: -6vw !important;
                              }
 
 
                             .arrow-up{
                                 position: absolute;
                                 top: -3vw !important;
-                                font-size: 3vw !important;
+                                font-size: 4.3vw !important;
                             }
                         }
                     }
@@ -2148,23 +2152,23 @@
         margin-top: 10vh;
 
         .title{
-            left: 35% !important;
+            left: 20% !important;
             top: 10vw !important;
             
 
             .title-bg-img{
-                width: 40vw !important;
+                width: 55vw !important;
             }
 
             h6{
                 top: 1.5vw !important;
                 left: 9vw !important;
-                font-size: 3vw !important;
+                font-size: 4.5vw !important;
             }
         }
 
         .box{
-            height: 70vh !important;
+            height: 75vh !important;
             width: 85vw !important;
             left: 5vw !important;
 
@@ -2174,49 +2178,49 @@
             }
 
             .box-right{
-                height: 90% !important;
+                height: 95% !important;
                 width: 90% !important;
                 left: 4vw !important;
                 top: 4vw !important;
                 padding-left: 5vw !important;
 
                 h6{
-                    top: 60vw !important;
+                    top: 100vw !important;
                     position: absolute;
-                    font-size: 4vw !important;
+                    font-size: 5.5vw !important;
                 }
                 p{
-                    width: 85% !important;
-                    top: 18vw !important;
-                    font-size: 3vw !important;
+                    width: 90% !important;
+                    top: 25vw !important;
+                    font-size: 4.2vw !important;
                 }
                 h5{
-                    top: 67vw !important;
-                    font-size: 3vw !important;
+                    top: 110vw !important;
+                    font-size: 4.2vw !important;
                 }
 
                 .colon{
-                    width: 12vw !important;
-                    top: 5vw !important;
+                    width: 15vw !important;
+                    top: 8vw !important;
                 }
 
                 .machine{
                     bottom: 0;
                     z-index: -9;
                     right: 30vw !important;
-                    width: 30vw !important;
+                    width: 33vw !important;
                 }
 
                 .arrow{
-                    width: 16vw !important;
-                    top: 70vw !important;
-                    right: 7vw !important;
-                    gap: 1vw !important;
+                    width: 25vw !important;
+                    top: 120vw !important;
+                    right: 9vw !important;
+                    gap: 1.5vw !important;
 
                     
 
                     .arrows{
-                        font-size: 2.5vw !important;
+                        font-size: 4vw !important;
                     }
                 }
 
@@ -2225,12 +2229,12 @@
         }
 
         .club{
-            top: 125vw !important;
+            top: 175vw !important;
             flex-wrap: wrap;
             height: 40vh !important;
 
             img{
-                width: 30vw !important;
+                width: 37vw !important;
             }
         }
     }
