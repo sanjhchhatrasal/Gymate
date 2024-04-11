@@ -1620,7 +1620,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
    #page1{
     position: relative;
 
@@ -1630,15 +1630,14 @@
 
     .right-text{
         position: absolute;
-        top: 25% !important; 
-        left: 20vw !important;
+        top: 30% !important; 
+        left: 15vw !important;
 
         .title{
-            position: relative;
-            margin-left: 11vw;
+            margin-left: 15vw;
 
             .title-bg{
-                width: 45vw !important;
+                width: 46vw !important;
             }
 
             h2{
