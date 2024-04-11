@@ -2240,4 +2240,308 @@
     }
 }
 
+#page6{
+    width: 100%;
+
+    #page6-top{
+        display: none;
+
+    }
+
+    #page6-btm{
+        height: 60vh;
+
+
+        .btm-left{
+            width: 100% !important;
+            margin-left: 2vw !important;
+            margin-top: 10vw !important;
+
+            h1{
+                font-size: 9vw !important;
+
+                span{
+                    font-size: 9.2vw !important;
+                }
+            }
+
+            p{
+                font-size: 4.7vw !important;
+                width: 90% !important;
+                padding-top: 7vw !important;
+                color: #fff !important;
+            }
+
+            .input{
+                display: flex; 
+                margin-top: 7vw ;
+                gap: 3vw !important;
+
+                input{
+                    padding: 4vw 3vw !important;
+                    background-color: #fff !important;
+                    margin-bottom: 4vw !important;
+                    font-size: 3.2vw !important;
+                    color: #000 !important;
+                }
+
+                h6{
+                    font-size: 4.2vw !important;
+                }
+            }
+
+            button{
+                padding: 3.5vw 7vw !important;
+                font-size: 4.4vw !important;
+            }
+        }
+    }
+
+    
+}
+
+#page7{
+    height: 320vh !important;
+
+    .content{
+        margin-top: 15vw !important;
+
+        .title{
+            left: 20vw !important;
+            
+
+            .title-bg-img{
+                width: 50vw !important;
+            }
+
+            h6{
+                top: 1.5vw !important;
+                left: 8vw !important;
+                font-size: 4vw !important;
+            }
+        }
+
+        h1{
+            font-size: 9.5vw !important;
+            left: 5vw !important;
+            top: 10vw !important;
+            text-align: center;
+        }
+
+        p{
+            left: 5vw !important;
+            top: 35vw !important;
+            font-size: 5vw !important;
+            width: 90% !important;
+        }
+
+        .cards{
+            top: 70vw !important;
+            flex-direction: column;
+            margin-left: 5vw !important;
+
+            .card{
+                height: 90vh !important;
+                width: 90vw !important;
+
+                .card-top{
+                    height: 30% !important;
+
+                    .box{
+                        top: 40vw !important;
+                        width: 70vw !important;
+
+                        h6{
+                            font-size: 5.2vw !important;
+                        }
+                    }
+                }
+
+                .card-btm{
+                    height: 70% !important;
+
+                    .plan{
+                        width: 35vw !important;
+                        height: 12vw !important;
+                        top: -10vw !important;
+
+                        h6{
+                            font-size: 6vw !important;
+                        }
+
+                        h1{
+                            top: 0vw !important;
+                            font-size: 13vw !important;
+                        }
+
+                        p{
+                            left: 12vw !important;
+                            top: 5vw !important;
+                            font-size: 6vw !important;
+                        }
+                    }
+
+                    .h6{
+
+                        h6{
+                            font-size: 5vw !important;
+                            margin-top: 3vw !important;
+                        }
+                    }
+
+                    .btn{
+                        height: 10vh !important;
+                        width: 70vw !important;
+                        margin-top: 20vw !important;
+        
+                        .box{
+                            padding: 4.5vw 25vw !important;
+                            left: 5vw !important;
+                            top: -3vw !important;
+                        }
+        
+                        .main-btn{
+                            top: 1.2vw;
+                            font-size: 4vw !important;
+                            padding: 3vw 5vw !important;
+        
+                            .arrow{
+                               margin-left: 2vw !important;
+                            }
+                        }
+                    }
+        
+                    .btn:hover {
+                        .box{
+                            top: 1vw !important;
+                            left: 0vw !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#page8{
+
+    #page8-top{
+        height: 200vh !important;
+        padding-top: 10vw !important;
+
+        .title{
+            left: 20vw !important;
+            
+
+            .title-bg-img{
+                width: 50vw !important;
+            }
+
+            h6{
+                top: 1.5vw !important;
+                left: 10vw !important;
+                font-size: 4vw !important;
+            }
+        }
+
+        h1{
+            top: 20vw !important;
+            left: 5vw !important;
+            font-size: 10vw !important;
+            text-align: center;
+        }
+
+        p{
+            top: 50vw !important;
+            left: 5vw !important;
+            width: 90% !important;
+            font-size: 5vw !important;
+        }
+
+        .cards{
+            top: 75vw !important;
+            height: 155vh !important;
+            flex-direction: column;
+
+            .card{ 
+                height: 35% !important;
+                width: 90% !important;
+                padding-left: 5vw !important;
+
+               h6{
+                top: 17vw !important;
+                font-size: 6vw !important;
+               }
+
+               p{
+                top: 40vw !important;
+                font-size: 4vw !important;
+               }
+
+               .date{
+                padding: 2vw 4vw !important;
+                top: 5vw !important;
+                border-radius: 5vw !important;
+                font-size: 3.4vw !important;
+               }
+
+               .btn{
+                bottom:20vw !important;
+                left: 2vw;
+                font-size: 4vw !important;
+                padding: 3vw 3.5vw !important;
+
+                .arrow{
+                    margin-left: 5vw !important;
+                }
+               }
+            }
+        }
+    }
+
+    #page8-btm{
+        height: 50vh !important;
+        margin-top: 15vw !important;
+
+        h1{
+            font-size: 11vw !important;
+            padding-top: 10vw !important;
+            left: 2vw !important;
+        }
+
+        h2{
+            font-size: 9vw !important;
+            left: 2vw !important;
+            top: 45vw !important;
+        }
+
+        .btn{
+            top: 70vw !important;
+            left: 10vw !important;
+            width: 60vw !important;
+            margin-top: 3vw;
+
+            .box{
+                padding: 4.2vw 23vw !important;
+                left: 5vw !important;
+                top: -3vw !important;
+            }
+
+            .main-btn{
+                top: 1vw;
+                font-size: 4.3vw !important;
+                padding: 3vw 4.4vw !important;
+
+            }
+        }
+
+        .btn:hover {
+            .box{
+                top: 1vw;
+                left: 0;
+            }
+        }
+    }
+}
+
 }
