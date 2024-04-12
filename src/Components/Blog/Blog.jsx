@@ -5,7 +5,6 @@ function Blog() {
   return (
     <div className='main-blog'>
       <TopImage title="Blog"/>
-      <h1>Blog</h1>
     </div>
   )
 }

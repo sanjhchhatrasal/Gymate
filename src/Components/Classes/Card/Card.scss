@@ -1,0 +1,116 @@
+.card-main{
+    height: 63vh;
+    width: 24vw;
+    position: relative;
+    background-color: violet;
+    border-radius: 1vw;
+    overflow: hidden;
+
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        filter: brightness(70%);
+    }
+
+
+    .text{
+        position: absolute;
+        width: 100%;
+        top: 16vw;
+        padding-left: 2vw;
+
+        h6{
+            font-size: 1.7vw;
+            margin-bottom: 2vw;
+            color: #fff;
+        }
+
+        .line{
+            position: absolute;
+            top: 2.5vw;
+            height: 0.3vw;
+            width: 3.2vw;
+            margin-bottom: 1vw;
+            background-color: #F4153B;
+        }
+
+        .time{
+            display: flex;
+            gap: 2vw;
+
+            .left{
+                display: flex;
+
+                .icon{
+                    color: #fff;
+                    font-size: 1.3vw;
+                    margin-right: 0.5vw;
+                }
+
+                p{
+                    font-size: 1vw;
+                    font-weight: 500;
+                    color: #fff;
+                }
+            }
+
+            .right{
+                display: flex;
+
+                .icon{
+                    color: #fff;
+                    font-size: 1.3vw;
+                    margin-right: 0.5vw;
+                }
+
+                p{
+                    font-size: 1vw;
+                    font-weight: 500;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .btn{
+        position: absolute;
+        height: 10vh;
+        width: 15vw;
+        top: 23vw;
+        left: 2vw;
+
+        .box{
+            position: absolute;
+            padding: 1.4vw 6vw;
+            left: 1vw;
+            top: 0;
+            background-color: transparent;
+            border: 1px solid #fff;
+            transition: all ease 0.5s;
+        }
+
+        .main-btn{
+            position: absolute;
+            top: 1.2vw;
+            border: 0;
+            display: flex;
+            align-items: center;
+            font-size: 1vw;
+            font-weight: 700;
+            padding: 1vw 2.5vw;
+
+            .arrow{
+               margin-left: 0.6vw;
+                color: #FF0034;
+            }
+        }
+    }
+
+    .btn:hover {
+        .box{
+            top: 1.5vw;
+            left: 0;
+        }
+    }
+}

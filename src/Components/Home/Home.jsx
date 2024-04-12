@@ -11,7 +11,8 @@ import { IoIosArrowUp } from "react-icons/io";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
 
-import { hero, titleBg, bgimg, cardimg, timer, workout, nutritions, cycle, girlcycling, karate, girlkarate, power, boypower, meditation, girlmeditation, martialArt, boyMartialArts, workoutGirl, boyWorkout, cycleColor, karateColor, powerColor, meditationColor, martialArtsColor, workoutGirlColor, chooseBg, ctaBg, fitness, gymEquipment, gymBag, bottle, mainImgBoy, play , anaJune, atrleticClub, boyAbs, colon, fitnessClub, girlBoxing, girlGymnastic, girlLifting, girlRope, gymClub, johnLewis, jonathanDoe, mountainsArrow, muscle, page5Bg, page5BgDumble, page6BoyRope, powerLifting, testimonialGirl, testimonialShape, trainHard, trainerBg , page7Bg1 , page7Bg2 , page7Card1 , page7Card2 , page7Card3 , page8Bg } from '../Images/index';
+import { hero, titleBg, bgimg, cardimg, timer, workout, nutritions, cycle, girlcycling, karate, girlkarate, power, boypower, meditation, girlmeditation, martialArt, boyMartialArts, workoutGirl, boyWorkout, cycleColor, karateColor, powerColor, meditationColor, martialArtsColor, workoutGirlColor, chooseBg, ctaBg, fitness, gymEquipment, gymBag, bottle, mainImgBoy, play , anaJune, atrleticClub, boyAbs, colon, fitnessClub, girlBoxing, girlGymnastic, girlLifting, girlRope, gymClub, johnLewis, jonathanDoe, mountainsArrow, muscle, page5Bg, page5BgDumble, page6BoyRope, powerLifting, testimonialGirl, testimonialShape, trainHard, trainerBg  , page8Bg } from '../Images/index';
+import PricingComponent from '../PricingComponent/PricingComponent';
 
 function Home() {
 
@@ -92,7 +93,7 @@ function Home() {
           </div>
         </div>
         <div id="bottom">
-         <RunningGirl withMidClass={true}/>
+         <RunningGirl withMidClass1={true}/>
         </div>
         </div>
       </div>
@@ -427,107 +428,8 @@ function Home() {
         </div>
       </div>
 
-      <div id="page7">
-        <img  className="main-bg" src={bgimg} alt="" />
-        <img className='bg1' src={page7Bg1} alt="" />
-        <img className='bg2' src={page7Bg2} alt="" />
-
-        <div className="content">
-        <div className="title">
-             <img className='title-bg-img' src={titleBg} alt="" />
-             <h6>PRICING CHART</h6>
-              </div>
-              <h1>Exclusive Pricing Plan</h1>
-              <p>Gymat an unknown printer took a galley of type and scrambled make a type specimen book.</p>
-
-              <div className="cards">
-                <div className="card card1">
-                  <div className="card-top">
-                    <img className='card-bg1' src={page7Card1} alt="" />
-                     
-                    <div className="box">
-                      <h6>Beginners</h6>
-                    </div>
-                  </div>
-
-                  <div className="card-btm">
-                    <div className="plan">
-                      <h6>$</h6>
-                      <h1>39</h1>
-                      <p>p/m</p>
-                    </div>
-                    <div className="h6">
-                      <h6>Free Hand</h6>
-                      <h6>Gym Fitness</h6>
-                      <h6>Weight Loss</h6>
-                      <h6>Personal Trainer</h6>
-                      <h6>Cycling</h6>
-                    </div>
-                    <div className="btn">
-            <button className='box'></button>
-            <button className='main-btn'>PURCHASE NOW <FaArrowRight className='arrow'/></button>
-          </div>
-                </div>
-                </div>
-                <div className="card card2">
-                <div className="card-top">
-                    <img src={page7Card2} alt="" />
-                    
-                    <div className="box">
-                      <h6>Beginners</h6>
-                    </div>
-                  </div>
-                  <div className="card-btm">
-                    <div className="plan">
-                      <h6>$</h6>
-                      <h1>65</h1>
-                      <p>p/m</p>
-                    </div>
-                    <div className="h6">
-                      <h6>Free Hand</h6>
-                      <h6>Gym Fitness</h6>
-                      <h6>Weight Loss</h6>
-                      <h6>Personal Trainer</h6>
-                      <h6>Cycling</h6>
-                    </div>
-                    <div className="btn">
-            <button className='box'></button>
-            <button className='main-btn'>PURCHASE NOW <FaArrowRight className='arrow'/></button>
-          </div>
-                </div>
-                </div>
-                <div className="card card3">
-                <div className="card-top">
-                    <img src={page7Card3} alt="" />
-                    
-                    <div className="box">
-                      <h6>Beginners</h6>
-                    </div>
-                  </div>
-                  <div className="card-btm">
-                    <div className="plan">
-                      <h6>$</h6>
-                      <h1>100</h1>
-                      <p>p/m</p>
-                    </div>
-                    <div className="h6">
-                      <h6>Free Hand</h6>
-                      <h6>Gym Fitness</h6>
-                      <h6>Weight Loss</h6>
-                      <h6>Personal Trainer</h6>
-                      <h6>Cycling</h6>
-                    </div>
-                    <div className="btn">
-            <button className='box'></button>
-            <button className='main-btn'>PURCHASE NOW <FaArrowRight className='arrow'/></button>
-          </div>
-                </div>
-                </div>
-             
-        </div>
-      </div>
-      
-    </div>
+    
+    <PricingComponent />
 
     <div id="page8">
       <div id="page8-top">

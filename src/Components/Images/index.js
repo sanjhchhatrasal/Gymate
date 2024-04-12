@@ -61,5 +61,14 @@ export { default as page7Card1 } from '../../assets/images/page7-card1.jpg';
 export { default as page7Card2 } from '../../assets/images/page7-card2.jpg';
 export { default as page7Card3 } from '../../assets/images/page7-card3.jpg';
 export { default as page8Bg } from '../../assets/images/page8-bg.jpg';
-
-
+export { default as about1 } from '../../assets/images/about1.jpg';
+export { default as about2 } from '../../assets/images/about2.jpg';
+export { default as history1 } from '../../assets/images/history1.png';
+export { default as history2 } from '../../assets/images/history2.png';
+export { default as bodybuilding } from '../../assets/images/bodybuilding.jpg';
+export { default as boyBoxing } from '../../assets/images/boyBoxing.jpg';
+export { default as crossfit } from '../../assets/images/crossfit.jpg';
+export { default as fitness2 } from '../../assets/images/fitness.jpg';
+export { default as mma } from '../../assets/images/mma.jpg';
+export { default as running } from '../../assets/images/running.jpg';
+export { default as yoga } from '../../assets/images/Yoga.jpg';

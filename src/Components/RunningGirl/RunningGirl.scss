@@ -71,42 +71,111 @@
 
                 
             }
+
+            .btm1{
+                position: relative;
+                height: 10vh;
+                width: 13vw;
+                top: 15vh;
+    
+                .box{
+                    position: absolute;
+                    top: 0vw;
+                    left: 1vw;
+                    padding: 1.5vw 5.8vw;
+                    background-color: transparent;
+                    border: 1px solid rgb(84, 80, 80);
+                    transition: all ease 0.5s;
+                }
+    
+                button{
+                    position: absolute;
+                    top: 1vw;
+                    padding: 1.1vw 2vw;
+                    font-size: 1.1vw;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    color: #fff;
+                    background-color: rgb(84, 80, 80);
+                    outline: none;
+                    border: 0;
+                    transition: all ease 0.5s;
+                }
+    
+                
+            }
+        }
+
+        .mid2{
+            h1{
+                position: absolute;
+                font-size: 2.5vw;
+                width: 40%;
+                top: 12vw;
+            }
+
+            p{
+                position: absolute;
+                top: 20vw;
+                width: 35%;
+                font-size: 1vw;
+                color: gray;
+                font-weight: 500;
+                line-height: 1.7;
+            }
+
+            .btm2{
+                position: relative;
+                height: 10vh;
+                width: 13vw;
+                top: 46vh;
+                display: flex;
+                white-space: nowrap;
+    
+                .box{
+                    position: absolute;
+                    top: 0vw;
+                    left: 2vw;
+                    padding: 1.5vw 6.3vw;
+                    background-color: transparent;
+                    border: 1px solid #FF0336;
+                    transition: all ease 0.5s;
+                }
+    
+                button{
+                    position: absolute;
+                    top: 1vw;
+                    padding: 1.1vw 2vw;
+                    font-size: 1.1vw;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    color: #fff;
+                    background-color: #FF0336;
+                    outline: none;
+                    border: 0;
+                    transition: all ease 0.5s;
+                }
+
+                .arrow{
+                    margin-left: 0.1vw;
+                }
+    
+                
+            }
+
+            .btm2:hover{
+                .box{
+                    left: 0;
+                    top: 1vw;
+                }
+            }
+    
         }
 
 
-        .btm{
-            position: relative;
-            height: 10vh;
-            width: 13vw;
-            top: 15vh;
+       
 
-            .box{
-                position: absolute;
-                top: 0vw;
-                left: 1vw;
-                padding: 1.5vw 5.8vw;
-                background-color: transparent;
-                border: 1px solid rgb(84, 80, 80);
-                transition: all ease 0.5s;
-            }
-
-            button{
-                position: absolute;
-                top: 1vw;
-                padding: 1.1vw 2vw;
-                font-size: 1.1vw;
-                text-transform: uppercase;
-                font-weight: 700;
-                color: #fff;
-                background-color: rgb(84, 80, 80);
-                outline: none;
-                border: 0;
-                transition: all ease 0.5s;
-            }
-
-            
-        }
-
+        
         .btm:hover{
 
             .box{

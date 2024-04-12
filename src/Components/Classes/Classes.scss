@@ -1,0 +1,23 @@
+.main-classes{
+    width: 100%;
+    position: relative;
+
+    img{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
+
+    .cards{
+        width: 80%;
+        position: relative;
+        top: 6vw;
+        left: 10vw;
+        padding: 1vw;
+        display: flex;
+        flex-shrink: 0;
+        flex-wrap: wrap;
+        gap: 2vw;
+    }
+}
