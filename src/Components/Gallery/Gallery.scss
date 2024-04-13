@@ -1,0 +1,73 @@
+.main-gallery{
+    overflow: hidden;
+
+    .images{
+    width: 100%;
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+
+        .img{
+            height: 30vw;
+            width: 26vw;
+            overflow: hidden;
+
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .page{
+            display: none;
+            width: 100%;
+            margin-left: 15vw;
+
+            .image{
+                display: flex;
+                flex-shrink: 0;
+                flex-wrap: wrap;
+                gap: 1.5vw;
+            }
+        }
+        .page.active {
+            display: block; /* Show active page */
+          }
+
+        .button {
+            display: flex;
+            justify-content: center; /* Center the buttons horizontally */
+            margin-top: 1.5rem; /* Add margin to separate buttons from images */
+            gap: 1rem; /* Add some space between buttons */
+
+           
+        }
+        
+        .btn {
+            font-size: 1.2vw;
+            font-weight: 400;
+            padding: 0.5rem 1rem; /* Adjust padding for better button size */
+            border: 1px solid gray;
+            background-color: transparent;
+            border-radius: 5px; /* Add border-radius for rounded corners */
+            cursor: pointer; /* Change cursor to pointer on hover */
+            transition: background-color 0.3s ease, color 0.3s ease;
+
+            &:focus {
+              outline: none; /* Remove default focus outline */
+            }
+          
+            &.active {
+                border: 0;
+              background-color: #FF0336;
+              color: #fff;
+            }
+        }
+        
+
+        
+    }
+}

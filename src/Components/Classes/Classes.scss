@@ -1,5 +1,6 @@
 .main-classes{
     width: 100%;
+    margin-bottom: 25vw;
     position: relative;
 
     img{
@@ -19,5 +20,20 @@
         flex-shrink: 0;
         flex-wrap: wrap;
         gap: 2vw;
+
+
+        .show-more-btn{
+            padding: 1.2vw 2.5vw;
+            font-size: 1.1vw;
+            color: #fff;
+            background-color: #FF0336;
+            margin-left: 35vw;
+            margin-top: 2vw;
+            border-radius: 2vw;
+            border: 0;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    
     }
 }

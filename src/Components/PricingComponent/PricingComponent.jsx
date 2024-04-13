@@ -1,7 +1,7 @@
 import React from 'react'
 import './PricingComponent.scss'
 import { FaArrowRight, FaFacebookF } from "react-icons/fa";
-import { hero, titleBg, bgimg, cardimg, timer, workout, nutritions, cycle, girlcycling, karate, girlkarate, power, boypower, meditation, girlmeditation, martialArt, boyMartialArts, workoutGirl, boyWorkout, cycleColor, karateColor, powerColor, meditationColor, martialArtsColor, workoutGirlColor, chooseBg, ctaBg, fitness, gymEquipment, gymBag, bottle, mainImgBoy, play , anaJune, atrleticClub, boyAbs, colon, fitnessClub, girlBoxing, girlGymnastic, girlLifting, girlRope, gymClub, johnLewis, jonathanDoe, mountainsArrow, muscle, page5Bg, page5BgDumble, page6BoyRope, powerLifting, testimonialGirl, testimonialShape, trainHard, trainerBg , page7Bg1 , page7Bg2 , page7Card1 , page7Card2 , page7Card3 , page8Bg } from '../Images/index';
+import { hero, titleBg, bgimg , page7Bg1 , page7Bg2 , page7Card1 , page7Card2 , page7Card3  } from '../Images/index';
 
 
 function PricingComponent() {

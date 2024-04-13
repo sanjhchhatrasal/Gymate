@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Navbar.scss'
 import { IoPersonOutline } from "react-icons/io5";
 import { RiMenu2Line } from "react-icons/ri";
@@ -7,8 +7,22 @@ import { NavLink } from 'react-router-dom';
 
 
 function Navbar() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 50; // Adjust the scroll threshold as needed
+      setScrolled(isScrolled);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
-    <div className='main-nav'>
+    <div className={`main-nav ${scrolled ? 'scrolled' : ''}`}>
       <img className='logo-img' src="https://gymate-iota.vercel.app/static/media/logo.c5ac0791c9f959f36051cff4c1188c2c.svg" alt="" />
       <div className="h6-group">
         <NavLink className='navlink' to="/">Home</NavLink>

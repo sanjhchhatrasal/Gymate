@@ -10,6 +10,10 @@
     color: #fff;
     padding: 1vw 1.5vw;
 
+    &.scrolled {
+        background-color: #000; // Change this to the desired background color when scrolled
+      }
+
     .h6-group{
         display: flex;
         align-items: center;
