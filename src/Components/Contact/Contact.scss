@@ -1,5 +1,185 @@
 .main-contact{
-    height: 100vh;
     width: 100%;
-    background-color: cornflowerblue;
+
+    #content{
+
+        #left{
+            margin-left: 7vw;
+
+            h1{
+                font-size: 2.5vw;
+                width: 80%;
+                margin-bottom: 2vw;
+            }
+
+            p{
+                font-size: 1.05vw;
+                font-weight: 500;
+                color: #898989;
+                line-height: 1.6;
+                width: 80%;
+            }
+
+            .elems{
+                display: flex;
+                flex-shrink: 0;
+                flex-wrap: wrap;
+                gap: 3vw;
+
+                .elem{
+                    h6{
+                        font-size: 1.3vw;
+                    }
+
+                    .line{
+                        width: 3vw;
+                        background-color: #E9022D;
+                        height: 0.3vw;
+                        margin-bottom: 1vw;
+                    }
+
+                    p{
+                        font-size: 1.1vw;
+                        line-height: 1.5;
+                    }
+                }
+            }
+        }
+
+        #top{
+            width: 100%;
+            display: flex;
+            margin-top: 5vw;
+
+            #left{
+                margin-left: 7vw;
+    
+                h1{
+                    font-size: 2.5vw;
+                    width: 70%;
+                    margin-bottom: 2vw;
+                }
+    
+                p{
+                    font-size: 1.05vw;
+                    font-weight: 500;
+                    color: #898989;
+                    line-height: 1.6;
+                    width: 80%;
+                    margin-bottom: 3vw;
+                }
+    
+                .elems{
+                    display: flex;
+                    flex-shrink: 0;
+                    flex-wrap: wrap;
+                    gap: 2vw;
+    
+                    .elem{
+                        h6{
+                            font-size: 1.3vw;
+                        }
+    
+                        .line{
+                            width: 3vw;
+                            background-color: #E9022D;
+                            height: 0.3vw;
+                            margin-bottom: 1vw;
+                        }
+    
+                        p{
+                            font-size: 1.1vw;
+                            line-height: 1.5;
+                        }
+                    }
+                }
+
+                .elem2{
+
+                    p{
+                        position: absolute;
+                        display: flex;
+                        width: 40%;
+                        margin-top: 1.5vw;
+                    }
+                }
+
+                .elem4{
+
+                    .social-icons{
+                        display: flex;
+                        gap: 1vw;
+
+                        .icons{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            height: 3vw;
+                            width: 3vw;
+                            border-radius: 50%;
+                            font-size: 1.3vw;
+                            background-color: #F8F8F8;
+                        }
+
+                        .icons:hover{
+                            background-color: #E9022D;
+                            color: #fff;
+                        }
+                    }
+
+                    
+                }
+            }
+
+            
+            #right{
+                width: 37%;
+                padding: 2vw;
+                position: relative;
+                right: 9vw;
+                background-color: #F8F8F8;
+    
+                h1{
+                    font-size: 2.2vw;
+                }
+    
+                .line{
+                    width: 4vw;
+                    height: 0.3vw;
+                    background-color: #E9022D;
+                    margin-bottom: 2vw;
+                }
+    
+                    input{
+                        padding: 1vw 10vw;
+                        margin-bottom: 1vw;  
+                        border-radius: 0.5vw;   
+                }
+                .select{
+                    padding: 1vw 11.5vw;
+                    border-radius: 0.5vw;
+                    margin-bottom: 1vw; 
+                }
+                .textarea{
+                    padding: 1vw 7.5vw;
+                    border-radius: 0.5vw;
+                    margin-bottom: 1vw; 
+                }
+    
+                button{
+                    padding: 1vw 2vw;
+                    font-weight: 500;
+                    color: #fff;
+                    font-size: 1vw;
+                    background-color: #E9022D;
+                    border: 0;
+                    border-radius: 0.5vw;
+                    margin-left: 10vw;
+                }
+            }
+
+        }
+
+        
+    }
 }

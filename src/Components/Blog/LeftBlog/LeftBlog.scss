@@ -1,13 +1,12 @@
 .main-left-blog{
     height: 100vh;
-    width: 50vw;
+    width: 48vw;
     margin-top: 5vw;
-    background-color: rgb(214, 252, 252);
 
     .img{
         position: relative;
         height: 55%;
-        width: 100%;
+        width: 95%;
 
         img{
             position: absolute;
@@ -39,6 +38,7 @@
         font-size: 2vw;
         margin-top: 1vw;
         margin-bottom: 1vw;
+        line-height: 1.5;
     }
 
     p{
