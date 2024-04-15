@@ -94,3 +94,5 @@ export { default as fitnessAmbassadarBig } from '../../assets/images/fitness-amb
 export { default as fitnessAmbassadarSmall } from '../../assets/images/fitness-ambassadar-small.jpg';
 export { default as boyLiftingSmall } from '../../assets/images/boy-lifting-small.jpg';
 export { default as sideBar } from '../../assets/images/sidebar.png';
+export { default as navbarLogo } from '../../assets/images/navbar-logo.svg';
+export { default as footerLogo } from '../../assets/images/footer-logo.svg';

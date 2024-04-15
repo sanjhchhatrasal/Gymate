@@ -4,10 +4,27 @@ import { IoPersonOutline } from "react-icons/io5";
 import { RiMenu2Line } from "react-icons/ri";
 import { FaPlus } from "react-icons/fa6";
 import { NavLink } from 'react-router-dom';
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaPinterestP } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
+import { FaPhoneAlt } from "react-icons/fa";
+import { HiMail } from "react-icons/hi";
+import { RxCross2 } from "react-icons/rx";
+import {Gallery6, boyAbs, footerLogo, girlBoxingSmall, girlGymnastic, girlLifting, girlRope, navbarLogo} from '../Images/index';
 
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const [sidePage, setSidePage] = useState(false);
+
+  const toggle = () =>{
+    setSidePage(!sidePage)
+  }
+
+  const handleClear = () =>{
+      setSidePage('')
+  }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,9 +38,10 @@ function Navbar() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
   return (
     <div className={`main-nav ${scrolled ? 'scrolled' : ''}`}>
-      <img className='logo-img' src="https://gymate-iota.vercel.app/static/media/logo.c5ac0791c9f959f36051cff4c1188c2c.svg" alt="" />
+      <img className='logo-img' src={navbarLogo} alt="" />
       <div className="h6-group">
         <NavLink className='navlink' to="/">Home</NavLink>
         <NavLink className='navlink' to="/about">About</NavLink>
@@ -35,9 +53,69 @@ function Navbar() {
         <NavLink className='navlink' to="/contact">Contact</NavLink>
       </div>
       <div className="right-group">
-        <IoPersonOutline className='profile'/>
-        <RiMenu2Line className='menu'/>
-        <button> <div className='plus'><FaPlus className='plus-sign'/></div>Join Class now</button>
+        <NavLink to='/signup'><IoPersonOutline className='profile'/></NavLink>
+        <RiMenu2Line className='menu' onClick={toggle}/>
+        {/*sidebar menu */}
+        {sidePage && (
+          <div className={`sidebar-menu ${sidePage ? 'open' : 'close'}`}>
+            <img className='logo-img' src={footerLogo} alt="" />
+            <RxCross2 onClick={handleClear} className='cross'/>
+            <div className="about">
+              <h6>About Us</h6>
+              <p>Find out who we are and what makes us unique. We are a community-driven gym committed to providing personalized fitness experiences for all levels of fitness enthusiasts in a welcoming and supportive environment.</p>
+            </div>
+            <div className="gallery">
+              <h6>Gallery</h6>
+              <div className="img">
+                <img src={girlLifting} alt="" />
+              </div>
+              <div className="img">
+                <img src={Gallery6} alt="" />
+              </div>
+              <div className="img">
+                <img src={boyAbs} alt="" />
+              </div>
+              <div className="img">
+                <img src={girlGymnastic} alt="" />
+              </div>
+              <div className="img">
+                <img src={girlRope} alt="" />
+              </div>
+              <div className="img">
+                <img src={girlBoxingSmall} alt="" />
+              </div>
+            </div>
+            <div className="contact">
+              <h6>Contact Info</h6>
+              <div className="location social-icons">
+                <FaLocationDot />
+                <p>59 Street, House Newyork City</p>
+              </div>
+              <div className="phone social-icons">
+                <FaPhoneAlt />
+                <p>+123-678800090</p>
+              </div>
+              <div className="email social-icons">
+                <HiMail />
+                <p>gymate@gmail.com</p>
+              </div>
+            </div>
+            <div className="follow">
+              <h6>Follow Us</h6>
+              <div className="facebook icon">
+                <FaFacebookF className='facebook-icon'/>
+            </div>
+            <div className="twitter icon">
+                <FaTwitter className='twitter-icon'/>
+            </div>
+            <div className="pinterest icon">
+                <FaPinterestP className='pinterest-icon'/>
+            </div>
+            </div>
+          </div>
+        )}
+
+       <NavLink to="/contact"> <button> <div className='plus'><FaPlus className='plus-sign'/></div>Join Class now</button></NavLink>
       </div>
     </div>
   )

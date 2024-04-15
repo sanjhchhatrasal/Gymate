@@ -33,14 +33,24 @@
     .right-group{
         display: flex;
         align-items: center;
+        position: relative;
         gap: 2vw;
 
         .profile{
             font-size: 1.7vw;
+            color: #fff;
+        }
+
+        .profile:hover{
+            color: #FF0336;
         }
 
         .menu{
             font-size: 1.7vw;
+        }
+        .menu:hover{
+            color: #FF0336;
+            cursor: pointer;
         }
 
         button{
@@ -53,6 +63,7 @@
             font-weight: 700;
             font-size: 0.9vw;
             background-color: transparent;
+            cursor: pointer;
 
             .plus{
                 margin-left: -1.5vw;
@@ -72,5 +83,166 @@
                 transform: rotate(360deg);
             }
         }
+
+
+        .sidebar-menu { 
+            height: calc(112vh - 12vh);
+            width: 25vw;
+            background-color: #fff;
+            color: #000;
+            position: fixed; /* Changed to fixed */
+            top: 0; /* Adjust as needed */
+            left: -25vw; /* Adjust as needed */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; /* Adjust as needed */
+            align-items: flex-start; /* Adjust as needed */
+            padding: 2vw; /* Adjust as needed */
+            z-index: 9998; /* Lower than .main-nav to ensure it's behind the main navigation */
+            overflow-y: auto;
+            transition: left 0.5s ease; 
+
+            &.open {
+                left: 0;
+                animation: slideIn 0.5s forwards;
+              }
+              
+             &.close {
+                 left: -25vw;
+                 animation: slideOut 0.5s forwards; /* Apply slideOut animation when closing */
+             }
+    
+            .logo-img{
+                position: absolute;
+                width: 9vw;
+                top: 2vw;
+                left: 2vw;
+            }
+            .cross{
+                font-size: 2vw;
+                font-weight: 600;
+                position: absolute;
+                color: #FF0336;
+                right: 2vw;
+                top: 2.5vw;
+                cursor: pointer;
+            }
+
+            .about{
+                margin-top: 8vw;
+
+                h6{
+                    font-size: 1.3vw;
+                    margin-bottom: 1vw;
+                }
+                p{
+                    font-size: 1vw;
+                    color: #a0a0a0;
+                    line-height: 1.5;
+                }
+            }
+
+            .gallery{
+                display: flex;
+                flex-shrink: 0;
+                flex-wrap: wrap;
+                gap: 1vw;
+                margin-top: 8vw;
+
+                h6{
+                    position: absolute;
+                    font-size: 1.3vw;
+                    top: 28vw;
+                }
+                .img{
+                    height: 6vw;
+                    width: 6vw;
+                    border-radius: 1vw;
+                    overflow: hidden;
+
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+
+            .contact{
+                margin-top: 7vw;
+
+                h6{
+                    font-size: 1.3vw;
+                    margin-bottom: 2vw;
+                }
+                p{
+                    font-size: 1.1vw;
+                    color: #a0a0a0;
+                    margin-left: 1vw;
+                }
+
+
+                .social-icons{
+                    display: flex;
+                    align-items: center;
+                    margin-top: 1vw;
+                    color: #FF0336;
+                }
+            }
+
+            .follow{
+                margin-top: 7vw;
+                display: flex;
+
+                h6{
+                    position: absolute;
+                    font-size: 1.3vw;
+                }
+
+                .icon{
+                    margin-top: 2.5vw;
+                    margin-left: 1vw;
+                    height: 2vw;
+                    width: 2vw;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #FF0336;
+                    color: #fff;
+                    border-radius: 50%;
+                    font-size: 1.2vw;
+                }
+            }
+
+            @keyframes slideIn {
+                from {
+                  transform: translateX(-100%);
+                }
+                to {
+                  transform: translateX(0);
+                }
+              }
+
+              @keyframes slideOut {
+                from {
+                    transform: translateX(0%);
+                  }
+                  to {
+                    transform: translateX(-100%);
+                  }
+            }
+
+
+
+    
+            
+            
+        }
     }
+
+   
+    
+    
+   
+    
 }

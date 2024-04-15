@@ -342,3 +342,121 @@
         }
     }
 }
+
+@media (max-width: 1024px){
+    .main-running{
+        height: 150vh !important;
+        flex-direction: column;
+    
+        .left{
+            height: 100%;
+            width: 100% !important;
+    
+            .top{
+                position: relative;
+                left: 25vw;
+                top: -5vw;
+    
+                .titlebg{
+                    position: absolute;
+                    width: 35vw;
+                }
+                h1{
+                    top: 1.5vw;
+                    left: 8vw;
+                    font-size: 2.4vw;
+                }
+            }
+    
+            .mid1{
+                h5{
+                    font-size: 5.3vw;
+                    margin-left: -5vw;
+                    text-align: center;
+                    margin-top: 3vw;
+                }
+    
+                p{
+                    font-size: 2.3vw;
+                    margin-top: 2vw;
+                    font-weight: 500;
+                    width: 90%;
+                    text-align: center
+                    ;margin-left: 2vw;
+                }
+    
+                .elems{
+                    margin-top: 8vw;
+                    margin-left: 5vw;
+    
+                    .elem-img{
+                        width: 10vw;
+                        margin-left: 4vw;
+                        margin-bottom: 3vw;
+                    }
+    
+                    h6{
+                        font-size: 3vw;
+                        margin-left: 0vw;
+                        width: 80%;
+                        text-align: center;
+                        margin-bottom: 2vw;
+                    }
+    
+                    .elem2{
+                        padding-left: 2vw;
+                        padding-right: 2vw;
+                        border-left: 1px solid #dadada;
+                        border-right: 1px solid #dadada;
+                    }
+    
+                    .elem{
+                        width: 50%;
+                        display: flex;
+                        margin-top: 5vw;
+                        flex-direction: column;
+                    }
+    
+                    
+                }
+            }
+    
+    
+            .btm{
+                top: 5vh !important;
+                left: 20vw;
+    
+                .box{
+                    top: -3vw;
+                    left: 4vw;
+                    padding: 5vw 20vw;
+                }
+    
+                button{
+                    padding: 5vw 10vw !important;
+                    font-size: 5vw;
+                    white-space: nowrap; 
+                }
+    
+                
+            }
+    
+            .btm:hover{
+    
+                .box{
+                    top: 1vw;
+                    left: 0;
+                    border: 1px solid #FF0336;
+                }
+    
+                .main-btn{
+                    background-color: #FF0336;
+                }
+            }
+        }
+
+        .right{
+            display: none;
+        }
+    }
+}

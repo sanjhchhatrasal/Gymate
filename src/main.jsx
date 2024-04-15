@@ -12,6 +12,7 @@ import Pricing from './Components/Pricing/Pricing'
 import Schedule from './Components/Schedule/Schedule'
 import Classes from './Components/Classes/Classes'
 import TopImage from './Components/TopImage/TopImage'
+import SignUp from './Components/SignUp/SignUp'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -24,6 +25,7 @@ const router = createBrowserRouter(
       <Route path='pricing' element={<Pricing />}/>
       <Route path='classes' element={<Classes />}/>
       <Route path='contact' element={<Contact />}/>
+      <Route path='signup' element={<SignUp />}/>
     </Route>
   )
 )

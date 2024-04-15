@@ -1,0 +1,107 @@
+.main-signup{
+    width: 100%;
+    background-color: floralwhite;
+
+    #content{
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .form{
+            width: 35vw;
+            color: #fff;
+            padding: 3vw;
+            position: absolute;
+            background-color: #000;
+
+            .username{
+                margin-bottom: 2vw;
+
+                h6{
+                    font-size: 1.2vw;
+                    font-weight: 400;
+                    margin-bottom: 1vw;
+                }
+
+                input{
+                    padding: 0.7vw 7vw;
+                    font-size: 1.2vw;
+                }
+            }
+
+            .email{
+                margin-bottom: 2vw;
+
+                h6{
+                    font-size: 1.2vw;
+                    font-weight: 400;
+                    margin-bottom: 1vw;
+                }
+
+                input{
+                    padding: 0.7vw 7vw;
+                    font-size: 1.2vw;
+                }
+            }
+            .password{
+                h6{
+                    font-size: 1.2vw;
+                    font-weight: 400;
+                    margin-bottom: 1vw;
+                }
+                input{
+                    padding: 0.7vw 7vw;
+                    font-size: 1.2vw;
+                }
+            }
+
+           .btn{
+            cursor: pointer;
+            position: relative;
+            padding: 1.6vw;
+            margin-top: 3vw;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            background-color: #FF0336
+            ;
+
+            button{
+                background-color: transparent;
+                position: absolute;
+                cursor: pointer;
+                border: 0;
+                font-size: 1.5vw;
+                padding-left: 9vw;
+                color: #fff;
+            }
+           }
+
+           .account{
+            margin-top: 3vw;
+            p{
+                color: rgb(155, 155, 155);
+                font-size: 0.9vw;
+                margin-top: 0.5vw;
+
+                span{
+                    color: #FF0336;
+                }
+            }
+            .already{
+                color: #fff;
+                
+                span{
+                    cursor: pointer;
+                    font-weight: 600;
+                    font-size: 1vw;
+                }
+            }
+
+           }
+        }
+    }
+}

@@ -4,13 +4,15 @@ import { FaTwitter } from "react-icons/fa";
 import { FaPinterestP } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import './Footer.scss';
+import {footerLogo} from '../Images/index';
+
 
 function Footer() {
     const currentYear = new Date().getFullYear();
   return (
     <div className='main-footer'>
       <div className="elem1">
-        <img className='logo-img' src="https://gymate-iota.vercel.app/static/media/logo-footer.afc20655e23e1a696de404d17ac1d465.svg" alt="" />
+        <img className='logo-img' src={footerLogo} alt="" />
         <p>Take your health and body to the next level with our comprehensive program designed to help you reach your fitness goals.</p>
         <div className="social-icons">
             <div className="facebook">
