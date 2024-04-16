@@ -2503,7 +2503,7 @@
                 height: 50% !important;
                 width: 100% !important;
                 margin-left: -5vw;
-                margin-top: 2vw;
+                margin-top: -5vw !important;
 
                 .title{
                     left: 25vw !important;
@@ -2536,18 +2536,18 @@
                 }
 
                 .btn{
-                    top: 120vw !important;
+                    top: 75vw !important;
                     left: 20vw !important;
     
                     .box{
-                        padding: 4.5vw 19.4vw !important;
+                        padding: 3.4vw 14.4vw !important;
                         left: 3vw !important;
                         top: -3vw !important;
                     }
     
                     .main-btn{
-                        font-size: 3.2vw !important;
-                        padding: 3.5vw 6vw !important;
+                        font-size: 2.5vw !important;
+                        padding: 2.5vw 4vw !important;
     
                         .arrow{
                            margin-left: 1vw !important;
@@ -2567,8 +2567,9 @@
                 }
 
                 .four-elems{
-                    top: 70vw !important;
+                    top: 45vw !important;
                     gap: 5vw !important;
+                    left: 5vw !important;
 
 
                     .elem{
@@ -2577,16 +2578,16 @@
                         margin-left: 1vw;
 
                         .img-div{
-                            height: 15vw !important;
-                            width: 15vw !important;
+                            height: 10vw !important;
+                            width: 10vw !important;
 
                             img{
-                                width: 10vw !important;
+                                width: 7vw !important;
                             }
                         }
 
                         h6{
-                            font-size: 3.7vw !important;
+                            font-size: 2.6vw !important;
                         }
                     }
 
@@ -2621,12 +2622,12 @@
 }
 
 #page5{
-    top: 10vw !important;
+    top: 40vw !important;
     width: 100%;
     margin-top: 30vh !important;
 
     #page5-top{
-        height: 200vh !important;
+        height: 220vh !important;
 
 
         .top-up{
@@ -2634,30 +2635,30 @@
 
 
             .title{
-                left: 20vw !important; 
+                left: 26vw !important; 
                 
     
                 .title-bg-img{
-                    width: 50vw !important;
+                    width: 35vw !important;
                 }
     
                 h6{
-                    top: 1.9vw !important;
-                    left: 8vw !important;
-                    font-size: 3.8vw !important;
+                    top: 1.4vw !important;
+                    left: 7vw !important;
+                    font-size: 2.8vw !important;
                 }
             }
 
             h1{
-                font-size: 10vw !important;
-                top: 6vw !important;
+                font-size: 8.5vw !important;
+                top: 5vw !important;
                 text-align: center;
                 left: 0 !important;
             }
             p{
-                font-size: 4.2vw !important;
+                font-size: 3.2vw !important;
                 width: 95% !important;
-                top: 33vw !important;
+                top: 25vw !important;
                 left: 1vw !important;
             }
         }
@@ -2665,16 +2666,16 @@
         .top-down{
             height: 90% !important;
             width: 100%;
-            top: 0vw !important;
+            top: 10vw !important;
 
             .cards{
                 flex-direction: column;
-                left: 10vw !important;
+                left: 20vw !important;
                 margin-bottom: 5vw !important;
 
                 .card{
-                    height: 45vh !important;
-                    width: 60vw !important;
+                    height: 40vh !important;
+                    width: 50vw !important;
                     margin-bottom: 20vw;
 
                     .card-top{
@@ -2683,11 +2684,11 @@
 
                         .trainer-bg{
                             position: absolute;
-                            width: 70vw !important;
+                            width: 50vw !important;
                         }
 
                         .trainer{
-                            width: 50vw !important;
+                            width: 30vw !important;
                             left: 11vw !important;
                             top: -1vw !important;
                         }
@@ -2695,41 +2696,43 @@
                 
 
                     .card-btm{ 
-                        height: 45% !important;
+                        height: 55% !important;
                         width: 125% !important;
+                        left: -5vw;
+                        top: 8vw;
 
                         h6{
-                            font-size: 6.5vw !important;
-                            top: 5vw !important;
-                            left: 14vw !important;
+                            font-size: 4.5vw !important;
+                            top: 3vw !important;
+                            left: 17vw !important;
                         }
 
                         p{
-                            top: 14vw !important;
-                            left: 20vw !important;
-                            font-size: 4vw !important;
+                            top: 9vw !important;
+                            left: 22vw !important;
+                            font-size: 2.5vw !important;
                         }
 
                         .icons{
                             gap: 4vw !important;
-                            font-size: 5vw !important;
-                            top: 25vw !important;
-                            left: 20vw !important;
+                            font-size: 3vw !important;
+                            top: 14vw !important;
+                            left: 16vw !important;
                         }
 
                         .arrow-div{
 
                              .arrow{
                                 position: absolute;
-                                width: 25vw ;
-                                top: -6vw !important;
+                                width: 20vw ;
+                                top: -4.5vw !important;
                              }
 
 
                             .arrow-up{
                                 position: absolute;
                                 top: -3vw !important;
-                                font-size: 4.3vw !important;
+                                font-size: 3.5vw !important;
                             }
                         }
                     }
@@ -2739,27 +2742,27 @@
     }
 
     #page5-btm{
-        height: 130vh !important;
+        height: 150vh !important;
         margin-top: 10vh;
 
         .title{
-            left: 20% !important;
-            top: 10vw !important;
+            left: 30% !important;
+            top: 15vw !important;
             
 
             .title-bg-img{
-                width: 55vw !important;
+                width: 35vw !important;
             }
 
             h6{
                 top: 1.5vw !important;
-                left: 9vw !important;
-                font-size: 4.5vw !important;
+                left: 6vw !important;
+                font-size: 3vw !important;
             }
         }
 
         .box{
-            height: 75vh !important;
+            height: 85vh !important;
             width: 85vw !important;
             left: 5vw !important;
 
@@ -2769,49 +2772,49 @@
             }
 
             .box-right{
-                height: 95% !important;
+                height: 90% !important;
                 width: 90% !important;
                 left: 4vw !important;
                 top: 4vw !important;
                 padding-left: 5vw !important;
 
                 h6{
-                    top: 100vw !important;
+                    top: 55vw !important;
                     position: absolute;
-                    font-size: 5.5vw !important;
+                    font-size: 4vw !important;
                 }
                 p{
                     width: 90% !important;
-                    top: 25vw !important;
-                    font-size: 4.2vw !important;
+                    top: 20vw !important;
+                    font-size: 2.5vw !important;
                 }
                 h5{
-                    top: 110vw !important;
-                    font-size: 4.2vw !important;
+                    top: 60vw !important;
+                    font-size: 3vw !important;
                 }
 
                 .colon{
-                    width: 15vw !important;
-                    top: 8vw !important;
+                    width: 10vw !important;
+                    top: 5vw !important;
                 }
 
                 .machine{
                     bottom: 0;
                     z-index: -9;
                     right: 30vw !important;
-                    width: 33vw !important;
+                    width:26vw !important;
                 }
 
                 .arrow{
-                    width: 25vw !important;
-                    top: 120vw !important;
+                    width: 18vw !important;
+                    top: 65vw !important;
                     right: 9vw !important;
-                    gap: 1.5vw !important;
+                    gap: 1vw !important;
 
                     
 
                     .arrows{
-                        font-size: 4vw !important;
+                        font-size: 3vw !important;
                     }
                 }
 
@@ -2826,6 +2829,190 @@
 
             img{
                 width: 37vw !important;
+            }
+        }
+    }
+
+
+}
+
+#page6{
+    width: 100%;
+
+    #page6-top{
+        display: none;
+
+    }
+
+    #page6-btm{
+        height: 60vh;
+
+
+        .btm-left{
+            width: 100% !important;
+            margin-left: 2vw !important;
+            margin-top: 5vw !important;
+
+            h1{
+                font-size: 6vw !important;
+
+                span{
+                    font-size: 6.2vw !important;
+                }
+            }
+
+            p{
+                font-size: 3vw !important;
+                width: 90% !important;
+                padding-top: 2vw !important;
+                color: #fff !important;
+            }
+
+            .input{
+                display: flex; 
+                margin-top: 5vw ;
+                gap: 3vw !important;
+
+                input{
+                    padding: 3vw 2vw !important;
+                    background-color: #fff !important;
+                    margin-bottom: 4vw !important;
+                    font-size: 3vw !important;
+                    color: #000 !important;
+                }
+
+                h6{
+                    font-size: 3.2vw !important;
+                }
+            }
+
+            button{
+                padding: 3vw 5vw !important;
+                font-size: 3.5vw !important;
+                margin-top: 8vw !important;
+            }
+        }
+    }
+
+    
+}
+
+#page8{
+
+    #page8-top{
+        height: 200vh !important;
+        padding-top: 10vw !important;
+
+        .title{
+            left: 30vw !important;
+            
+
+            .title-bg-img{
+                width: 35vw !important;
+            }
+
+            h6{
+                top: 1.5vw !important;
+                left: 7vw !important;
+                font-size: 3vw !important;
+            }
+        }
+
+        h1{
+            top: 18vw !important;
+            left: 20vw !important;
+            font-size: 7vw !important;
+            text-align: center;
+        }
+
+        p{
+            top: 28vw !important;
+            left: 5vw !important;
+            width: 90% !important;
+            font-size: 3vw !important;
+        }
+
+        .cards{
+            top: 30vw !important;
+            height: 155vh !important;
+            flex-direction: column;
+
+            .card{ 
+                height: 30% !important;
+                width: 90% !important;
+                padding-left: 5vw !important;
+
+               h6{
+                top: 18vw !important;
+                font-size: 5vw !important;
+               }
+
+               p{
+                top: 28vw !important;
+                font-size: 3vw !important;
+               }
+
+               .date{
+                padding: 1vw 3vw !important;
+                top: 7vw !important;
+                border-radius: 5vw !important;
+                font-size: 2.5vw !important;
+               }
+
+               .btn{
+                bottom: 8vw !important;
+                left: 5vw !important;
+                font-size: 2.5vw !important;
+                padding: 2vw 2.5vw !important;
+
+                .arrow{
+                    margin-left: 2vw !important;
+                }
+               }
+            }
+        }
+    }
+
+    #page8-btm{
+        height: 50vh !important;
+        margin-top: 15vw !important;
+
+        h1{
+            font-size: 8vw !important;
+            padding-top: 5vw !important;
+            left: 2vw !important;
+        }
+
+        h2{
+            font-size: 5vw !important;
+            left: 2vw !important;
+            top: 20vw !important;
+        }
+
+        .btn{
+            top: 40vw !important;
+            left: 10vw !important;
+            width: 60vw !important;
+            margin-top: 3vw;
+
+            .box{
+                padding: 4vw 18vw !important;
+                left: 5vw !important;
+                top: -3vw !important;
+            }
+
+            .main-btn{
+                top: 1vw;
+                font-size: 3.4vw !important;
+                padding: 3vw 4.4vw !important;
+
+            }
+        }
+
+        .btn:hover {
+            .box{
+                top: 1vw;
+                left: 0;
             }
         }
     }
