@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.scss'
 import { IoPersonOutline } from "react-icons/io5";
-import { RiMenu2Line } from "react-icons/ri";
+import { FaChartBar } from "react-icons/fa6";
+import { FaBars } from "react-icons/fa6";
 import { FaPlus } from "react-icons/fa6";
 import { NavLink } from 'react-router-dom';
 import { FaFacebookF } from "react-icons/fa";
@@ -17,6 +18,7 @@ import {Gallery6, boyAbs, footerLogo, girlBoxingSmall, girlGymnastic, girlLiftin
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [sidePage, setSidePage] = useState(false);
+  const [navbar, setNavbar] = useState(false);
 
   const toggle = () =>{
     setSidePage(!sidePage)
@@ -25,6 +27,18 @@ function Navbar() {
   const handleClear = () =>{
       setSidePage('')
   }
+
+  const toggleNav = () =>{
+    setNavbar(!navbar)
+  }
+
+  const handleNavlinkClick = () =>{
+    setNavbar(false)
+  }
+
+  /* const handleNavClear =() =>{
+      setNavbar(false)
+  } */
 
   useEffect(() => {
     const handleScroll = () => {
@@ -53,8 +67,9 @@ function Navbar() {
         <NavLink className='navlink' to="/contact">Contact</NavLink>
       </div>
       <div className="right-group">
+        <FaBars className='menu-bars' onClick={toggleNav}/>
         <NavLink to='/signup'><IoPersonOutline className='profile'/></NavLink>
-        <RiMenu2Line className='menu' onClick={toggle}/>
+        <FaChartBar className='menu' onClick={toggle}/>
         {/*sidebar menu */}
         {sidePage && (
           <div className={`sidebar-menu ${sidePage ? 'open' : 'close'}`}>
@@ -113,6 +128,23 @@ function Navbar() {
             </div>
             </div>
           </div>
+        )}
+
+        {/* responsive navbar */}
+        {navbar && (
+         <div className={`main-nav-res ${navbar ? 'open' : 'close'}`}>
+          <RxCross2 className='cross-nav' onClick={handleNavlinkClick}/>
+           <div className="h6-group-res">
+          <NavLink className='navlink' to="/" onClick={handleNavlinkClick}>Home</NavLink>
+          <NavLink className='navlink' to="/about" onClick={handleNavlinkClick}>About</NavLink>
+          <NavLink className='navlink' to="/gallery" onClick={handleNavlinkClick}>Gallery</NavLink>
+          <NavLink className='navlink' to="/schedule" onClick={handleNavlinkClick}>Schedule</NavLink>
+          <NavLink className='navlink' to="/blog" onClick={handleNavlinkClick}>Blog</NavLink>
+          <NavLink className='navlink' to="/pricing" onClick={handleNavlinkClick}>Pricing</NavLink>
+          <NavLink className='navlink' to="/classes" onClick={handleNavlinkClick}>Classes</NavLink>
+          <NavLink className='navlink' to="/contact" onClick={handleNavlinkClick}>Contact</NavLink>
+        </div>
+         </div>
         )}
 
        <NavLink to="/contact"> <button> <div className='plus'><FaPlus className='plus-sign'/></div>Join Class now</button></NavLink>

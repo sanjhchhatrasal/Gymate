@@ -28,7 +28,10 @@
         .navlink:hover{
             color: #FF0336;
         }
+
+        
     }
+
 
     .right-group{
         display: flex;
@@ -44,6 +47,91 @@
         .profile:hover{
             color: #FF0336;
         }
+        .menu-bars{
+            font-size: 1.7vw;
+            display: none;
+        }
+        .menu-bars:hover{
+            color: #FF0336;
+            cursor: pointer;
+        }
+
+        .main-nav-res{
+            height: 100vh;
+            width: 100vw;
+            background-color: #fff;
+            color: #000;
+            position: fixed; /* Changed to fixed */
+            top: 0; /* Adjust as needed */
+            left: -25vw; /* Adjust as needed */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Adjust as needed */
+            align-items: center; /* Adjust as needed */
+            padding: 2vw; /* Adjust as needed */
+            z-index: 9998; /* Lower than .main-nav to ensure it's behind the main navigation */
+            overflow-y: auto;
+            transition: left 0.5s ease; 
+
+            &.open {
+                left: 0;
+                animation: slideIn 0.5s forwards;
+              }
+              
+             &.close {
+                 left: -25vw;
+                 animation: slideOut 0.5s forwards; /* Apply slideOut animation when closing */
+             }
+
+             .cross-nav{
+                font-size: 7vw;
+                position: absolute;
+                top: 20vw;
+                right: 15vw;
+                color: #FF0336;
+                cursor: pointer;
+             }
+
+            .h6-group-res{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                 gap: 7vw;
+                 font-size: 5.5vw;
+    
+                 .navlink{
+                    font-weight: 500;
+                    text-decoration: none;
+                }
+    
+                .navlink:hover{
+                    color: #FF0336;
+                    font-weight: 600;
+                }
+            }
+
+
+            @keyframes slideInMenu {
+                from {
+                  transform: translateX(-100%);
+                }
+                to {
+                  transform: translateX(0);
+                }
+              }
+
+              @keyframes slideOutMenu {
+                from {
+                    transform: translateX(0%);
+                  }
+                  to {
+                    transform: translateX(-100%);
+                  }
+            }
+        }
+
+       
+
 
         .menu{
             font-size: 1.7vw;
@@ -244,5 +332,164 @@
     
     
    
+    
+}
+
+@media screen and (max-width: 480px){
+
+    .main-nav{
+        height: 15vh;
+        padding: 1vw 1.5vw;
+
+        .logo-img{
+            width: 35vw;
+        }
+
+        .h6-group{
+            display: none !important;
+        }
+    
+        .menu-bars{
+            display: block !important;
+        }
+
+        .right-group{
+            gap: 5vw;
+    
+            .profile{
+                font-size: 5vw;
+            }
+
+            .menu-bars{
+                font-size: 5vw;
+            }
+    
+            .menu{
+                font-size: 5vw;
+            }
+    
+            button{
+                display: none;
+            }
+    
+    
+            .sidebar-menu { 
+                height: calc(112vh - 12vh);
+                width: 97vw;
+                padding: 3vw; 
+    
+                &.open {
+                    left: 0;
+                    animation: slideIn 0.5s forwards;
+                  }
+                  
+                 &.close {
+                     left: -25vw;
+                     animation: slideOut 0.5s forwards; /* Apply slideOut animation when closing */
+                 }
+        
+                .logo-img{
+                    width: 30vw;
+                    top: 5vw;
+                    left: 5vw;
+                }
+                .cross{
+                    font-size: 7vw;
+                    right: 10vw;
+                    top: 8vw;
+                }
+    
+                .about{
+                    margin-top: 25vw;
+    
+                    h6{
+                        font-size: 5vw;
+                        margin-bottom: 3vw;
+                    }
+                    p{
+                        font-size: 4vw;
+                    }
+                }
+    
+                .gallery{
+                    gap: 3vw;
+                    margin-top: 30vw;
+    
+                    h6{
+                        font-size: 5vw;
+                        top: 95vw;
+                    }
+                    .img{
+                        height: 25vw;
+                        width: 25vw;
+    
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+    
+                .contact{
+                    margin-top: 15vw;
+    
+                    h6{
+                        font-size: 5vw;
+                        margin-bottom: 5vw;
+                    }
+                    p{
+                        font-size: 4vw;
+                        margin-left: 4vw;
+                    }
+    
+    
+                    .social-icons{
+                        margin-top: 2vw;
+                        font-size: 4vw;
+                    }
+                }
+    
+                .follow{
+                    margin-top: 15vw;
+    
+                    h6{
+                        font-size: 5vw;
+                    }
+    
+                    .icon{
+                        margin-top: 10vw;
+                        height: 10vw;
+                        width: 10vw;
+                        font-size: 5vw;
+                    }
+                }
+    
+                @keyframes slideIn {
+                    from {
+                      transform: translateX(-100%);
+                    }
+                    to {
+                      transform: translateX(0);
+                    }
+                  }
+    
+                  @keyframes slideOut {
+                    from {
+                        transform: translateX(0%);
+                      }
+                      to {
+                        transform: translateX(-100%);
+                      }
+                }
+    
+    
+    
+        
+                
+                
+            }
+        }
+    }
     
 }
