@@ -7,13 +7,12 @@
 
 <p><b>Gymate</b> provides a space for people to improve their physical fitness and overall health through regular exercise and physical activity.</p>
 
-<p>Credits for the design goes to <a href='https://www.radiustheme.com/'>RadiusTheme</a></p>
 
 👉 Live Demo: <a href='https://sanjh-gymate.netlify.app/'>Gymate Demo</a>
 
 <h3>Build with:</h3>
 
-» Tailwind CSS <br>
+» Sass/Scss <br>
 » React JS
 ## Features ✨
 
