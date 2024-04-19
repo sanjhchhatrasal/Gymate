@@ -1,13 +1,20 @@
 
 
 ---
+<div align='center'><img src='https://user-images.githubusercontent.com/105128267/213878516-5072da91-0d7a-4dd8-95a8-0b405691dcc5.svg'/></div>
 
-# Gymate 🏋️‍♂️
+<h2>About the project</h2>
 
-![Gymate Logo](https://github.com/sanjhchhatrasal/Gymate/blob/main/src/assets/images/logo.png)
+<p><b>Gymate</b> provides a space for people to improve their physical fitness and overall health through regular exercise and physical activity.</p>
 
-Gymate is a fitness tracking application designed to help users monitor their workouts, set fitness goals, and track progress over time. This repository contains the source code for the Gymate web application.
+<p>Credits for the design goes to <a href='https://www.radiustheme.com/'>RadiusTheme</a></p>
 
+👉 Live Demo: <a href='https://gymate-stefvndev.vercel.app/'>Gymate Demo</a>
+
+<h3>Build with:</h3>
+
+» Tailwind CSS <br>
+» React JS
 ## Features ✨
 
 - **User Authentication**: Secure user authentication system using Firebase Authentication.
