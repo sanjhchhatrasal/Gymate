@@ -230,7 +230,8 @@
     .main-running{
         height: 150vh !important;
         flex-direction: column;
-        padding-top: 10vw;
+        padding: 0 1vw !important;
+        padding-top: 10vw !important;
     
         .left{
             height: 100%;
@@ -238,7 +239,7 @@
     
             .top{
                 position: relative;
-                left: 8vw !important;
+                left: 7vw !important;
                 top: -5vw;
     
                 .titlebg{
@@ -254,19 +255,19 @@
     
             .mid1{
                 h5{
-                    font-size: 8.5vw !important;
-                    margin-left: -5vw;
+                    font-size: 8.8vw !important;
+                    margin-left: -10vw !important;
                     text-align: center;
                     margin-top: 13vw !important;
                 }
     
                 p{
                     font-size: 4.5vw !important;
-                    margin-top: 4vw;
+                    margin-top: 5vw !important;
                     font-weight: 500;
                     width: 90%;
                     text-align: center;
-                    margin-left: 2vw;
+                    margin-left: 0.5vw !important;
                 }
     
                 .elems{
