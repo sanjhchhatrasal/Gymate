@@ -1414,52 +1414,54 @@
 
     .right-text{
         position: absolute;
-        top: 30% !important; 
+        top: 25% !important; 
         left: 15vw !important;
 
         .title{
-            margin-left: 15vw;
+            margin-left: 5vw;
 
             .title-bg{
-                width: 46vw !important;
+                width: 70vw !important;
             }
 
             h2{
                 width: 40vw !important;
-                left: 1vw !important;
-                top: 0vw !important;
-                font-size: 3vw !important;
+                left: 3vw !important;
+                top: -2vw !important;
+                font-size: 5vw !important;
+                white-space: nowrap;
             }
         }
 
         h1{
-            font-size: 10vw !important;
+            font-size: 12vw !important;
             text-align: center;
-            margin-top: 10vw !important;
+            margin-top: 18vw !important;
         }
         h2{
-            font-size: 8.3vw !important;
+            font-size: 13vw !important;
             margin-left: 6vw;
-            margin-top: 3vw;
+            margin-top: 5vw;
+            text-align: center;
         }
 
         .btn{
             position: relative;
             margin-left: 15vw;
-            margin-top: 10vw !important;
+            margin-top: 13vw !important;
 
             .box{
                 position: absolute;
-                padding: 4vw 17.5vw !important;
-                left: 3vw !important;
-                top: -2vw !important;
+                padding: 6vw 27vw !important;
+                left: 6vw !important;
+                top: -6vw !important;
             }
 
             .main-btn{
                 position: absolute;
                 top: 1.2vw;
-                font-size: 3vw !important;
-                padding: 3vw 5vw !important;
+                font-size: 4.5vw !important;
+                padding: 4.5vw 9vw !important;
                 white-space: nowrap;
 
             
@@ -1480,30 +1482,31 @@
    }
 
    #page2{
-    height: 230vh !important;
+    height: 260vh !important;
 
     #top{
+        padding: 5.6vw !important;
         position: relative !important;
         margin-top: -10vw !important;
-        padding-left: 5vw !important;
+        /* padding-left: 5vw !important; */
 
         .card{
             position: absolute !important;
-            height: 58% !important;
-            width: 80vw !important;
+            height: 60% !important;
+            width: 85vw !important;
             border-top-left-radius: 8vw !important;
             border-bottom-right-radius: 8vw !important;
 
             .card-content{
 
                 h6{
-                    font-size: 5vw !important;
+                    font-size: 7vw !important;
                     margin-top: 3vw;
                     margin-bottom: 3vw;
                 }
 
                 p{
-                    font-size: 3.5vw !important;
+                    font-size: 4vw !important;
                 }
             }
         }
@@ -1512,10 +1515,10 @@
             top: 0 !important;
         }
         .card2{
-            top: 36vh !important;
+            top: 42vh !important;
         }
         .card3{
-            top: 72vh;
+            top: 84vh;
         }
 
         .card:hover{
@@ -1532,34 +1535,34 @@
 
     #bottom{
         margin-top: 58vh !important;
-        height: 75%;
+        height: 80% !important;
         width: 100%;
     }
 }
 
 #page3{
     height: 270vh !important;
-    margin-top: 15vw !important;
+    margin-top: 20vw !important;
 
     .title{
-        left: 20vw !important;
+        left: 16vw !important;
 
         .title-bg-img{
-            width: 55vw !important;
+            width: 70vw !important;
         }
 
         h6{
-            top: 2vw !important;
-            left: 6vw !important;
-            font-size: 3.4vw !important;
+            top: 3vw !important;
+            left: 9vw !important;
+            font-size: 4.3vw !important;
         }
     }
 
     h5{
-        font-size: 7.3vw !important;
-        line-height: 1.5;
+        font-size: 9vw !important;
+        line-height: 1.7;
         text-align: center;
-        padding-top: 10vw !important;
+        padding-top: 17vw !important;
         padding-left: 5vw !important;
     }
 
@@ -1571,17 +1574,17 @@
             width: 85vw !important;
 
             .text-container{
-                top: 60vw !important;
+                top: 50vw !important;
                 margin-left: 4vw !important;
 
                 h6{
-                    font-size: 6.4vw !important;
+                    font-size: 7.5vw !important;
                 }
 
                 .time{
 
                     p{
-                        font-size: 4vw !important;
+                        font-size: 4.6vw !important;
                     }
 
                    
@@ -1589,20 +1592,24 @@
             }
 
             .side-icon{
-                top: 20vw !important;
-                height: 12vw !important;
-                width: 25vw !important;
+                top: 15vw !important;
+                left: -14vw !important;
+                height: 17vw !important;
+                width: 40vw !important;
+                border-radius: 7vw !important;
 
 
                 .side-icon-img{
-                    left: 14vw !important;
-                    height: 7.5vw !important;
-                    width: 7.5vw !important;
+                    left: 23vw !important;
+                    top: 2vw !important;
+                    height: 11vw !important;
+                    width: 11vw !important;
                 }
                 .side-icon-img-color{
-                    left: 14vw !important;
-                    height: 7.5vw !important;
-                    width: 7.5vw !important;
+                    left: 23vw !important;
+                    top: 2vw !important;
+                    height: 11vw !important;
+                    width: 11vw !important;
                 }
                 
             }
@@ -1615,32 +1622,32 @@
 #page4{
 
     #page4-top{
-        height: 40vh !important;
+        height: 45vh !important;
 
         h1{
             left: 0vw !important;
             top: 15vw !important;
             text-align: center;
-            font-size: 7.2vw !important;
+            font-size: 8vw !important;
             width: 100% !important;
         }
 
         .btn{
-            top: 52vw;
+            top: 57vw;
             left: 20vw;
             margin-top: 0vw !important;
 
             .box{
-                padding: 5vw 22vw !important;
-                left: 5vw !important;
-                top: -4vw !important;
+                padding: 6vw 27vw !important;
+                left: 7vw !important;
+                top: -6vw !important;
             }
 
             .main-btn{
                 top: 0vw !important;
                 left: 0vw !important;
-                font-size: 4vw !important;
-                padding: 3.5vw 5vw !important;
+                font-size: 5vw !important;
+                padding: 4vw 6.5vw !important;
             }
         }
 
@@ -1653,7 +1660,7 @@
     }
 
     #page4-btm{
-        height: 135vh !important;
+        height: 160vh !important;
 
         .page4-content{
             margin-top: 6vw;
@@ -1698,49 +1705,50 @@
                 height: 50% !important;
                 width: 100% !important;
                 margin-left: -5vw;
-                margin-top: -15vw;
+                margin-top: -25vw;
+                padding: 0 2vw !important;
 
                 .title{
-                    left: 20vw !important;
+                    left: 15vw !important;
                     
         
                     .title-bg-img{
-                        width: 50vw !important;
+                        width: 65vw !important;
                     }
         
                     h6{
-                        top: 1.5vw !important;
-                        left: 7vw !important;
-                        font-size: 4vw !important;
+                        top: 2vw !important;
+                        left: 9vw !important;
+                        font-size: 5vw !important;
                     }
                 }
 
                 h1{
-                    font-size: 8vw !important;
+                    font-size: 9vw !important;
                     position: absolute;
-                    top: 12vw !important;
+                    top: 15vw !important;
                     width: 95% !important;
                 }
 
                 p{
                     width: 90% !important;
-                    top: 33vw !important;
-                    font-size: 3.6vw !important;
+                    top: 50vw !important;
+                    font-size: 4vw !important;
                 }
 
                 .btn{
-                    top: 120vw !important;
+                    top: 155vw !important;
                     left: 20vw !important;
     
                     .box{
-                        padding: 4.5vw 19.4vw !important;
-                        left: 3vw !important;
-                        top: -3vw !important;
+                        padding: 5.5vw 24.4vw !important;
+                        left: 5vw !important;
+                        top: -5vw !important;
                     }
     
                     .main-btn{
-                        font-size: 3.2vw !important;
-                        padding: 3.5vw 6vw !important;
+                        font-size: 4vw !important;
+                        padding: 4vw 8vw !important;
     
                         .arrow{
                            margin-left: 1vw !important;
@@ -1760,8 +1768,8 @@
                 }
 
                 .four-elems{
-                    top: 70vw !important;
-                    gap: 5vw !important;
+                    top: 95vw !important;
+                    gap: 10vw !important;
 
 
                     .elem{
@@ -1770,40 +1778,40 @@
                         margin-left: 1vw;
 
                         .img-div{
-                            height: 15vw !important;
-                            width: 15vw !important;
+                            height: 18vw !important;
+                            width: 18vw !important;
 
                             img{
-                                width: 10vw !important;
+                                width: 12vw !important;
                             }
                         }
 
                         h6{
-                            font-size: 3.7vw !important;
+                            font-size: 4vw !important;
                         }
                     }
 
                     .elem1{
                         h6{
-                            left: 17vw !important;
+                            left: 23vw !important;
                         }
                     }
 
                     .elem2{
                         h6{
-                            left: 59vw !important;
+                            left: 69vw !important;
                         }
                     }
 
                     .elem3{
                         h6{
-                            left: 17vw !important;
+                            left: 22vw !important;
                         }
                     }
 
                     .elem4{
                         h6{
-                            left: 59vw !important;
+                            left: 69vw !important;
                         }
                     }
                 }
@@ -1814,12 +1822,11 @@
 }
 
 #page5{
-    top: 0vw !important;
+    top: 120vw !important;
     width: 100%;
-    margin-top: 30vh !important;
 
     #page5-top{
-        height: 200vh !important;
+        height: 220vh !important;
 
 
         .top-up{
@@ -1827,30 +1834,30 @@
 
 
             .title{
-                left: 20vw !important; 
+                left: 12vw !important; 
                 
     
                 .title-bg-img{
-                    width: 50vw !important;
+                    width: 70vw !important;
                 }
     
                 h6{
-                    top: 1.9vw !important;
-                    left: 8vw !important;
-                    font-size: 3.8vw !important;
+                    top: 2.5vw !important;
+                    left: 14vw !important;
+                    font-size: 5vw !important;
                 }
             }
 
             h1{
-                font-size: 10vw !important;
-                top: 6vw !important;
+                font-size: 12vw !important;
+                top: 12vw !important;
                 text-align: center;
                 left: 0 !important;
             }
             p{
-                font-size: 4.2vw !important;
+                font-size: 4.7vw !important;
                 width: 95% !important;
-                top: 33vw !important;
+                top: 45vw !important;
                 left: 1vw !important;
             }
         }
@@ -1932,29 +1939,30 @@
     }
 
     #page5-btm{
-        height: 130vh !important;
-        margin-top: 10vh;
+        height: 200vh !important;
+        margin-top: -5vh !important;
 
         .title{
-            left: 20% !important;
+            left: 15% !important;
             top: 10vw !important;
             
 
             .title-bg-img{
-                width: 55vw !important;
+                width: 70vw !important;
             }
 
             h6{
-                top: 1.5vw !important;
-                left: 9vw !important;
-                font-size: 4.5vw !important;
+                top: 2vw !important;
+                left: 14vw !important;
+                font-size: 5vw !important;
             }
         }
 
         .box{
+            top: 35vw !important;
             height: 75vh !important;
-            width: 85vw !important;
-            left: 5vw !important;
+            width: 94vw !important;
+            left: 3vw !important;
 
 
             .box-left{
@@ -2013,12 +2021,12 @@
         }
 
         .club{
-            top: 175vw !important;
+            top: 195vw !important;
             flex-wrap: wrap;
             height: 40vh !important;
 
             img{
-                width: 37vw !important;
+                width: 40vw !important;
             }
         }
     }
@@ -2092,36 +2100,36 @@
         padding-top: 10vw !important;
 
         .title{
-            left: 20vw !important;
+            left: 15vw !important;
             
 
             .title-bg-img{
-                width: 50vw !important;
+                width: 70vw !important;
             }
 
             h6{
-                top: 1.5vw !important;
-                left: 10vw !important;
-                font-size: 4vw !important;
+                top: 2.2vw !important;
+                left: 14vw !important;
+                font-size: 5.5vw !important;
             }
         }
 
         h1{
-            top: 20vw !important;
+            top: 25vw !important;
             left: 5vw !important;
-            font-size: 10vw !important;
+            font-size: 12vw !important;
             text-align: center;
         }
 
         p{
-            top: 50vw !important;
+            top: 60vw !important;
             left: 5vw !important;
             width: 90% !important;
-            font-size: 5vw !important;
+            font-size: 5.5vw !important;
         }
 
         .cards{
-            top: 75vw !important;
+            top: 85vw !important;
             height: 155vh !important;
             flex-direction: column;
 
@@ -2132,25 +2140,25 @@
 
                h6{
                 top: 17vw !important;
-                font-size: 6vw !important;
+                font-size: 6.5vw !important;
                }
 
                p{
                 top: 40vw !important;
-                font-size: 4vw !important;
+                font-size: 4.5vw !important;
                }
 
                .date{
-                padding: 2vw 4vw !important;
+                padding: 2.1vw 4.5vw !important;
                 top: 5vw !important;
                 border-radius: 5vw !important;
-                font-size: 3.4vw !important;
+                font-size: 3.9vw !important;
                }
 
                .btn{
-                bottom:20vw !important;
-                left: 2vw;
-                font-size: 4vw !important;
+                bottom: 15vw !important;
+                left: 5vw !important;
+                font-size: 4.5vw !important;
                 padding: 3vw 3.5vw !important;
 
                 .arrow{

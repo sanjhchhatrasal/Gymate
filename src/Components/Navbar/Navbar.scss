@@ -339,10 +339,11 @@
 
     .main-nav{
         height: 15vh;
-        padding: 1vw 1.5vw;
+        padding: 1vw 4vw;
 
         .logo-img{
-            width: 35vw;
+            width: 39vw;
+            margin-left: 3vw;
         }
 
         .h6-group{
@@ -354,18 +355,18 @@
         }
 
         .right-group{
-            gap: 5vw;
+            gap: 6vw;
     
             .profile{
-                font-size: 5vw;
+                font-size: 7.5vw;
             }
 
             .menu-bars{
-                font-size: 5vw;
+                font-size: 7.5vw;
             }
     
             .menu{
-                font-size: 5vw;
+                font-size: 7.5vw;
             }
     
             button{

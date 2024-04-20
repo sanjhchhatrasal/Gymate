@@ -228,8 +228,9 @@
 @media screen and (max-width: 480px){
 
     .main-running{
-        height: 130vh;
+        height: 150vh !important;
         flex-direction: column;
+        padding-top: 10vw;
     
         .left{
             height: 100%;
@@ -237,65 +238,65 @@
     
             .top{
                 position: relative;
-                left: 14vw;
+                left: 8vw !important;
                 top: -5vw;
     
                 .titlebg{
                     position: absolute;
-                    width: 50vw;
+                    width: 65vw !important;
                 }
                 h1{
-                    top: 2.2vw;
-                    left: 11vw;
-                    font-size: 3.5vw;
+                    top: 2.4vw !important;
+                    left: 13vw !important;
+                    font-size: 5vw !important;
                 }
             }
     
             .mid1{
                 h5{
-                    font-size: 6.8vw;
+                    font-size: 8.5vw !important;
                     margin-left: -5vw;
                     text-align: center;
-                    margin-top: 10vw;
+                    margin-top: 13vw !important;
                 }
     
                 p{
-                    font-size: 3.6vw;
+                    font-size: 4.5vw !important;
                     margin-top: 4vw;
                     font-weight: 500;
                     width: 90%;
-                    text-align: center
-                    ;margin-left: 2vw;
+                    text-align: center;
+                    margin-left: 2vw;
                 }
     
                 .elems{
-                    margin-top: 5vw;
-                    margin-left: 25vw;
+                    margin-top: 10vw !important;
+                    margin-left: 25vw !important;
                     flex-direction: column;
     
                     .elem-img{
-                        width: 17vw;
+                        width: 20vw !important;
                         margin-left: 4vw;
                         margin-bottom: 7vw;
                     }
     
                     h6{
-                        font-size: 4.5vw;
-                        margin-left: -3vw;
+                        font-size: 5.5vw !important;
+                        margin-left: -2vw !important;
                         width: 80%;
                         text-align: center;
                         margin-bottom: 2vw;
                     }
     
                     .elem2{
-                        border-left: none;
-                        border-right: none;
+                        border-left: none !important;
+                        border-right: none !important;
                     }
     
                     .elem{
                         width: 50%;
                         display: flex;
-                        margin-top: 5vw;
+                        margin-top: 8vw !important;
                         flex-direction: column;
                     }
     
@@ -304,26 +305,26 @@
             }
     
     
-            .btm{
-                top: 10vh;
-                left: 20vw;
+            .btm1{
+                top: 10vh !important;
+                left: 15vw;
     
                 .box{
-                    top: -3vw;
-                    left: 4vw;
-                    padding: 5vw 20vw;
+                    top: -5vw !important;
+                    left: 4vw !important;
+                    padding: 6.5vw 25.3vw !important;
                 }
     
                 button{
-                    padding: 4vw 8vw;
-                    font-size: 3.5vw;
+                    padding: 5vw 8vw !important;
+                    font-size: 5vw !important;
                     white-space: nowrap; 
                 }
     
                 
             }
     
-            .btm:hover{
+            .btm1:hover{
     
                 .box{
                     top: 1vw;
