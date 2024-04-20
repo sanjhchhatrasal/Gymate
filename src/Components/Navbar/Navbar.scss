@@ -494,3 +494,323 @@
     }
     
 }
+
+@media screen and (max-width: 600px){
+
+    .main-nav{
+        height: 15vh;
+        padding: 1vw 2vw;
+
+        .logo-img{
+            width: 33vw;
+            margin-left: 3vw;
+        }
+
+        .h6-group{
+            display: none !important;
+        }
+    
+        .menu-bars{
+            display: block !important;
+        }
+
+        .right-group{
+            gap: 5vw;
+    
+            .profile{
+                font-size: 6vw;
+            }
+
+            .menu-bars{
+                font-size: 6vw;
+            }
+    
+            .menu{
+                font-size: 6vw;
+            }
+    
+            button{
+                display: none;
+            }
+    
+    
+            .sidebar-menu { 
+                height: calc(112vh - 12vh);
+                width: 100vw;
+                padding: 3vw; 
+    
+                &.open {
+                    left: 0;
+                    animation: slideIn 0.5s forwards;
+                  }
+                  
+                 &.close {
+                     left: -25vw;
+                     animation: slideOut 0.5s forwards; /* Apply slideOut animation when closing */
+                 }
+        
+                .logo-img{
+                    width: 30vw;
+                    top: 5vw;
+                    left: 5vw;
+                }
+                .cross{
+                    font-size: 7vw;
+                    right: 10vw;
+                    top: 8vw;
+                }
+    
+                .about{
+                    margin-top: 25vw;
+    
+                    h6{
+                        font-size: 5vw;
+                        margin-bottom: 3vw;
+                    }
+                    p{
+                        font-size: 4vw;
+                    }
+                }
+    
+                .gallery{
+                    gap: 3vw;
+                    margin-top: 25vw;
+    
+                    h6{
+                        font-size: 5vw;
+                        top: 80vw;
+                    }
+                    .img{
+                        height: 25vw;
+                        width: 25vw;
+    
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+    
+                .contact{
+                    margin-top: 15vw;
+    
+                    h6{
+                        font-size: 5vw;
+                        margin-bottom: 5vw;
+                    }
+                    p{
+                        font-size: 4vw;
+                        margin-left: 4vw;
+                    }
+    
+    
+                    .social-icons{
+                        margin-top: 2vw;
+                        font-size: 4vw;
+                    }
+                }
+    
+                .follow{
+                    margin-top: 15vw;
+    
+                    h6{
+                        font-size: 5vw;
+                    }
+    
+                    .icon{
+                        margin-top: 10vw;
+                        height: 10vw;
+                        width: 10vw;
+                        font-size: 5vw;
+                    }
+                }
+    
+                @keyframes slideIn {
+                    from {
+                      transform: translateX(-100%);
+                    }
+                    to {
+                      transform: translateX(0);
+                    }
+                  }
+    
+                  @keyframes slideOut {
+                    from {
+                        transform: translateX(0%);
+                      }
+                      to {
+                        transform: translateX(-100%);
+                      }
+                }
+    
+    
+    
+        
+                
+                
+            }
+        }
+    }
+    
+}
+
+/* @media screen and (max-width: 1024px){
+
+    .main-nav{
+        height: 15vh;
+        padding: 1vw 2vw;
+
+        .logo-img{
+            width: 18vw;
+            margin-left: 3vw;
+        }
+
+        .h6-group{
+            display: none !important;
+        }
+    
+        .menu-bars{
+            display: block !important;
+        }
+
+        .right-group{
+            gap: 5vw;
+    
+            .profile{
+                font-size: 3vw;
+            }
+
+            .menu-bars{
+                font-size: 3vw;
+            }
+    
+            .menu{
+                font-size: 3vw;
+            }
+    
+            button{
+                display: none;
+            }
+    
+    
+            .sidebar-menu { 
+                height: calc(112vh - 12vh);
+                width: 100vw;
+                padding: 3vw; 
+    
+                &.open {
+                    left: 0;
+                    animation: slideIn 0.5s forwards;
+                  }
+                  
+                 &.close {
+                     left: -25vw;
+                     animation: slideOut 0.5s forwards; /
+                 }
+        
+                .logo-img{
+                    width: 30vw;
+                    top: 5vw;
+                    left: 5vw;
+                }
+                .cross{
+                    font-size: 7vw;
+                    right: 10vw;
+                    top: 8vw;
+                }
+    
+                .about{
+                    margin-top: 25vw;
+    
+                    h6{
+                        font-size: 5vw;
+                        margin-bottom: 3vw;
+                    }
+                    p{
+                        font-size: 4vw;
+                    }
+                }
+    
+                .gallery{
+                    gap: 3vw;
+                    margin-top: 25vw;
+    
+                    h6{
+                        font-size: 5vw;
+                        top: 80vw;
+                    }
+                    .img{
+                        height: 25vw;
+                        width: 25vw;
+    
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+    
+                .contact{
+                    margin-top: 15vw;
+    
+                    h6{
+                        font-size: 5vw;
+                        margin-bottom: 5vw;
+                    }
+                    p{
+                        font-size: 4vw;
+                        margin-left: 4vw;
+                    }
+    
+    
+                    .social-icons{
+                        margin-top: 2vw;
+                        font-size: 4vw;
+                    }
+                }
+    
+                .follow{
+                    margin-top: 15vw;
+    
+                    h6{
+                        font-size: 5vw;
+                    }
+    
+                    .icon{
+                        margin-top: 10vw;
+                        height: 10vw;
+                        width: 10vw;
+                        font-size: 5vw;
+                    }
+                }
+    
+                @keyframes slideIn {
+                    from {
+                      transform: translateX(-100%);
+                    }
+                    to {
+                      transform: translateX(0);
+                    }
+                  }
+    
+                  @keyframes slideOut {
+                    from {
+                        transform: translateX(0%);
+                      }
+                      to {
+                        transform: translateX(-100%);
+                      }
+                }
+    
+    
+    
+        
+                
+                
+            }
+        }
+    }
+    
+} */
