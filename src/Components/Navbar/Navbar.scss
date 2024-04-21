@@ -530,17 +530,7 @@
             }
     
             button{
-                display: flex !important;
-                padding: 1.2vw 2.5vw !important;
-                font-size: 1.5vw ;
-    
-                .plus{
-                    padding: 1vw !important;
-    
-                    .plus-sign{
-                        font-size: 1.7vw;
-                    }
-                }
+                display: none;
             }
     
     
@@ -700,7 +690,17 @@
             }
     
             button{
-                display: none;
+                display: flex !important;
+                padding: 1.2vw 2.5vw !important;
+                font-size: 1.5vw ;
+    
+                .plus{
+                    padding: 1vw !important;
+    
+                    .plus-sign{
+                        font-size: 1.7vw;
+                    }
+                }
             }
     
     
