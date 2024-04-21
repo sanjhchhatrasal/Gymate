@@ -1401,7 +1401,7 @@
     }
 
     
-}
+} 
 
 
 @media screen and (max-width: 480px) {
@@ -2215,6 +2215,818 @@
 }
 
 }
+
+@media screen and (max-width: 768px){
+    #page1{
+        position: relative;
+    
+        .main-img{
+            object-fit: cover;
+        }
+    
+        .right-text{
+            position: absolute;
+            top: 30% !important; 
+            left: 25vw !important;
+    
+            .title{
+                margin-left: 15vw;
+    
+                .title-bg{
+                    width: 30vw !important;
+                }
+    
+                h2{
+                    width: 40vw !important;
+                    left: -1vw !important;
+                    top: -1.2vw !important;
+                    font-size: 2vw !important;
+                }
+            }
+    
+            h1{
+                font-size: 6.5vw !important;
+                text-align: center;
+                margin-top: 10vw !important;
+            }
+            h2{
+                font-size: 6vw !important;
+                margin-left: 6vw;
+                margin-top: 3vw;
+            }
+    
+            .btn{
+                position: relative;
+                margin-left: 15vw;
+                margin-top: 10vw !important;
+    
+                .box{
+                    position: absolute;
+                    padding: 3vw 15.5vw !important;
+                    left: 5vw !important;
+                    top: -2vw !important;
+                }
+    
+                .main-btn{
+                    position: absolute;
+                    top: 1.2vw;
+                    font-size: 3vw !important;
+                    padding: 1.7vw 4vw !important;
+                    white-space: nowrap;
+    
+                
+                }
+            }
+    
+            .btn:hover {
+                .box{
+                    top: 1.5vw !important;
+                    left: 0 !important;
+                }
+            }
+        }
+        .social-icons{
+            display: none;
+    
+        }
+       }
+
+       #page2{
+        height: 200vh !important;
+    
+        #top{
+            position: relative !important;
+            margin-top: -10vw !important;
+            padding-left: 2vw !important;
+    
+            .card{
+                position: absolute !important;
+                height: 65% !important;
+                width: 90vw !important;
+                border-top-left-radius: 8vw !important;
+                border-bottom-right-radius: 8vw !important;
+    
+                .card-content{
+    
+                    h6{
+                        font-size: 4vw !important;
+                        margin-top: 0vw;
+                        margin-bottom: 0vw;
+                    }
+    
+                    p{
+                        font-size: 2vw !important;
+                    }
+                }
+            }
+    
+            .card1{
+                top: 0 !important;
+            }
+            .card2{
+                top: 36vh !important;
+            }
+            .card3{
+                top: 72vh;
+            }
+    
+            .card:hover{
+    
+                .card-img{
+                    opacity: 1;
+                }
+                .card-content{
+                    color: #fff;
+                }
+                
+            }
+        }
+    
+        #bottom{
+            margin-top: 65vh !important;
+            height: 75%;
+            width: 100%;
+        }
+    }
+    
+    #page3{
+        height: 280vh !important;
+        margin-top: 5vw !important;
+    
+        .title{
+            left: 30vw !important;
+    
+            .title-bg-img{
+                width: 35vw !important;
+            }
+    
+            h6{
+                top: 2vw !important;
+                left: 5vw !important;
+                font-size: 2.2vw !important;
+            }
+        }
+    
+        h5{
+            font-size: 5.3vw !important;
+            line-height: 1.5;
+            text-align: center;
+            padding-top: 10vw !important;
+            padding-left: 5vw !important;
+        }
+    
+        .classes-elem{
+            flex-direction: column;
+    
+            .class-elem{
+                height: 80vh;
+                width: 85vw !important;
+    
+                .text-container{
+                    top: 25vw !important;
+                    margin-left: 4vw !important;
+    
+                    h6{
+                        font-size: 3.4vw !important;
+                    }
+    
+                    .time{
+    
+                        p{
+                            font-size: 2vw !important;
+                        }
+    
+                       
+                    }
+                }
+    
+                .side-icon{
+                    top: 3vw !important;
+                    height: 8vw !important;
+                    width: 20vw !important;
+    
+    
+                    .side-icon-img{
+                        left: 13vw !important;
+                        height: 5.5vw !important;
+                        width: 5.5vw !important;
+                    }
+                    .side-icon-img-color{
+                        left: 13vw !important;
+                        height: 5.5vw !important;
+                        width: 5.5vw !important;
+                    }
+                    
+                }
+            }
+        }
+    
+        
+    }
+
+    #page4{
+
+    #page4-top{
+        height: 40vh !important;
+
+        h1{
+            left: 0vw !important;
+            top: 6vw !important;
+            text-align: center;
+            font-size: 4.5vw !important;
+            width: 100% !important;
+        }
+
+        .btn{
+            top: 23vw;
+            left: 25vw;
+            margin-top: 0vw !important;
+
+            .box{
+                padding: 3vw 12vw !important;
+                left: 5vw !important;
+                top: -3vw !important;
+            }
+
+            .main-btn{
+                top: 0vw !important;
+                left: 0vw !important;
+                font-size: 2.3vw !important;
+                padding: 2vw 3vw !important;
+            }
+        }
+
+        .btn:hover {
+            .box{
+                top: 0vw !important;
+                left: 0vw !important;
+            }
+        }
+    }
+
+    #page4-btm{
+        height: 180vh !important;
+
+        .page4-content{
+            margin-top: 5vw;
+            margin-left: 7vw !important;
+            display: flex;
+            flex-direction: column;
+
+           .left-content{
+            height: 50% !important;
+            width: 100% !important;
+            
+            .main-boy-img{
+                width: 65vw !important;
+                margin-left: 10vw;
+            }
+
+            .play{
+                top: 30vw !important;
+                left: 35vw !important;
+                height: 9vw !important;
+                width: 9vw !important;
+
+                .play-btn{
+                    width: 2.5vw !important;
+                }
+            }
+
+            .line1{
+                left: 7vw !important;
+                top: 35vw !important;
+                width: 1.2vw !important;
+                height: 45vw !important;
+            }
+
+            .line2{
+                left: 75vw !important;
+                width: 1.2vw !important;
+                height: 65vw !important;
+            }
+           }
+
+            .right-content{
+                height: 50% !important;
+                width: 100% !important;
+                margin-left: -5vw;
+                margin-top: -5vw !important;
+
+                .title{
+                    left: 25vw !important;
+                    
+        
+                    .title-bg-img{
+                        width: 35vw !important;
+                    }
+        
+                    h6{
+                        top: 1.5vw !important;
+                        left: 7vw !important;
+                        font-size: 2.5vw !important;
+                    }
+                }
+
+                h1{
+                    font-size: 5.5vw !important;
+                    position: absolute;
+                    top: 10vw !important;
+                    left: 3vw;
+                    width: 90% !important;
+                }
+
+                p{
+                    width: 90% !important;
+                    top: 28vw !important;
+                    left: 3vw;
+                    font-size: 2.2vw !important;
+                }
+
+                .btn{
+                    top: 75vw !important;
+                    left: 20vw !important;
+    
+                    .box{
+                        padding: 3.4vw 14.4vw !important;
+                        left: 3vw !important;
+                        top: -3vw !important;
+                    }
+    
+                    .main-btn{
+                        font-size: 2.5vw !important;
+                        padding: 2.5vw 4vw !important;
+    
+                        .arrow{
+                           margin-left: 1vw !important;
+                        }
+                    }
+                }
+    
+                .btn:hover {
+                    .box{
+                        top: 1vw !important;
+                        left: 0vw !important;
+                    }
+
+                    .main-btn{
+                        background-color: #FF0034 !important;
+                    }
+                }
+
+                .four-elems{
+                    top: 45vw !important;
+                    gap: 5vw !important;
+                    left: 5vw !important;
+
+
+                    .elem{
+                        height: 45% !important;
+                        width: 40%;
+                        margin-left: 1vw;
+
+                        .img-div{
+                            height: 10vw !important;
+                            width: 10vw !important;
+
+                            img{
+                                width: 7vw !important;
+                            }
+                        }
+
+                        h6{
+                            font-size: 2.6vw !important;
+                        }
+                    }
+
+                    .elem1{
+                        h6{
+                            left: 17vw !important;
+                        }
+                    }
+
+                    .elem2{
+                        h6{
+                            left: 59vw !important;
+                        }
+                    }
+
+                    .elem3{
+                        h6{
+                            left: 17vw !important;
+                        }
+                    }
+
+                    .elem4{
+                        h6{
+                            left: 59vw !important;
+                        }
+                    }
+                }
+            }
+    
+        }
+    }
+}
+
+#page5{
+    top: 40vw !important;
+    width: 100%;
+    margin-top: 30vh !important;
+
+    #page5-top{
+        height: 220vh !important;
+
+
+        .top-up{
+            top: 12vw !important;
+
+
+            .title{
+                left: 26vw !important; 
+                
+    
+                .title-bg-img{
+                    width: 35vw !important;
+                }
+    
+                h6{
+                    top: 1.4vw !important;
+                    left: 7vw !important;
+                    font-size: 2.8vw !important;
+                }
+            }
+
+            h1{
+                font-size: 8.5vw !important;
+                top: 5vw !important;
+                text-align: center;
+                left: 0 !important;
+            }
+            p{
+                font-size: 3.2vw !important;
+                width: 95% !important;
+                top: 25vw !important;
+                left: 1vw !important;
+            }
+        }
+
+        .top-down{
+            height: 90% !important;
+            width: 100%;
+            top: 10vw !important;
+
+            .cards{
+                flex-direction: column;
+                left: 20vw !important;
+                margin-bottom: 5vw !important;
+
+                .card{
+                    height: 40vh !important;
+                    width: 50vw !important;
+                    margin-bottom: 20vw;
+
+                    .card-top{
+                        height: 65%;
+                        width: 100%;
+
+                        .trainer-bg{
+                            position: absolute;
+                            width: 50vw !important;
+                        }
+
+                        .trainer{
+                            width: 30vw !important;
+                            left: 11vw !important;
+                            top: -1vw !important;
+                        }
+                    }
+                
+
+                    .card-btm{ 
+                        height: 55% !important;
+                        width: 125% !important;
+                        left: -5vw;
+                        top: 8vw;
+
+                        h6{
+                            font-size: 4.5vw !important;
+                            top: 3vw !important;
+                            left: 17vw !important;
+                        }
+
+                        p{
+                            top: 9vw !important;
+                            left: 22vw !important;
+                            font-size: 2.5vw !important;
+                        }
+
+                        .icons{
+                            gap: 4vw !important;
+                            font-size: 3vw !important;
+                            top: 14vw !important;
+                            left: 16vw !important;
+                        }
+
+                        .arrow-div{
+
+                             .arrow{
+                                position: absolute;
+                                width: 20vw ;
+                                top: -4.5vw !important;
+                             }
+
+
+                            .arrow-up{
+                                position: absolute;
+                                top: -3vw !important;
+                                font-size: 3.5vw !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #page5-btm{
+        height: 150vh !important;
+        margin-top: 10vh;
+
+        .title{
+            left: 30% !important;
+            top: 15vw !important;
+            
+
+            .title-bg-img{
+                width: 35vw !important;
+            }
+
+            h6{
+                top: 1.5vw !important;
+                left: 6vw !important;
+                font-size: 3vw !important;
+            }
+        }
+
+        .box{
+            height: 85vh !important;
+            width: 85vw !important;
+            left: 5vw !important;
+
+
+            .box-left{
+               display: none;
+            }
+
+            .box-right{
+                height: 90% !important;
+                width: 90% !important;
+                left: 4vw !important;
+                top: 4vw !important;
+                padding-left: 5vw !important;
+
+                h6{
+                    top: 55vw !important;
+                    position: absolute;
+                    font-size: 4vw !important;
+                }
+                p{
+                    width: 90% !important;
+                    top: 20vw !important;
+                    font-size: 2.5vw !important;
+                }
+                h5{
+                    top: 60vw !important;
+                    font-size: 3vw !important;
+                }
+
+                .colon{
+                    width: 10vw !important;
+                    top: 5vw !important;
+                }
+
+                .machine{
+                    bottom: 0;
+                    z-index: -9;
+                    right: 30vw !important;
+                    width:26vw !important;
+                }
+
+                .arrow{
+                    width: 18vw !important;
+                    top: 65vw !important;
+                    right: 9vw !important;
+                    gap: 1vw !important;
+
+                    
+
+                    .arrows{
+                        font-size: 3vw !important;
+                    }
+                }
+
+                    
+            }
+        }
+
+        .club{
+            top: 175vw !important;
+            flex-wrap: wrap;
+            height: 40vh !important;
+
+            img{
+                width: 37vw !important;
+            }
+        }
+    }
+
+
+}
+
+#page6{
+    width: 100%;
+
+    #page6-top{
+        display: none;
+
+    }
+
+    #page6-btm{
+        height: 60vh;
+
+
+        .btm-left{
+            width: 100% !important;
+            margin-left: 2vw !important;
+            margin-top: 5vw !important;
+
+            h1{
+                font-size: 6vw !important;
+
+                span{
+                    font-size: 6.2vw !important;
+                }
+            }
+
+            p{
+                font-size: 3vw !important;
+                width: 90% !important;
+                padding-top: 2vw !important;
+                color: #fff !important;
+            }
+
+            .input{
+                display: flex; 
+                margin-top: 5vw ;
+                gap: 3vw !important;
+
+                input{
+                    padding: 3vw 2vw !important;
+                    background-color: #fff !important;
+                    margin-bottom: 4vw !important;
+                    font-size: 3vw !important;
+                    color: #000 !important;
+                }
+
+                h6{
+                    font-size: 3.2vw !important;
+                }
+            }
+
+            button{
+                padding: 3vw 5vw !important;
+                font-size: 3.5vw !important;
+                margin-top: 8vw !important;
+            }
+        }
+    }
+
+    
+}
+
+#page8{
+
+    #page8-top{
+        height: 200vh !important;
+        padding-top: 10vw !important;
+
+        .title{
+            left: 30vw !important;
+            
+
+            .title-bg-img{
+                width: 35vw !important;
+            }
+
+            h6{
+                top: 1.5vw !important;
+                left: 7vw !important;
+                font-size: 3vw !important;
+            }
+        }
+
+        h1{
+            top: 18vw !important;
+            left: 20vw !important;
+            font-size: 7vw !important;
+            text-align: center;
+        }
+
+        p{
+            top: 28vw !important;
+            left: 5vw !important;
+            width: 90% !important;
+            font-size: 3vw !important;
+        }
+
+        .cards{
+            top: 30vw !important;
+            height: 155vh !important;
+            flex-direction: column;
+
+            .card{ 
+                height: 30% !important;
+                width: 90% !important;
+                padding-left: 5vw !important;
+
+               h6{
+                top: 18vw !important;
+                font-size: 5vw !important;
+               }
+
+               p{
+                top: 28vw !important;
+                font-size: 3vw !important;
+               }
+
+               .date{
+                padding: 1vw 3vw !important;
+                top: 7vw !important;
+                border-radius: 5vw !important;
+                font-size: 2.5vw !important;
+               }
+
+               .btn{
+                bottom: 8vw !important;
+                left: 5vw !important;
+                font-size: 2.5vw !important;
+                padding: 2vw 2.5vw !important;
+
+                .arrow{
+                    margin-left: 2vw !important;
+                }
+               }
+            }
+        }
+    }
+
+    #page8-btm{
+        height: 50vh !important;
+        margin-top: 15vw !important;
+
+        h1{
+            font-size: 8vw !important;
+            padding-top: 5vw !important;
+            left: 2vw !important;
+        }
+
+        h2{
+            font-size: 5vw !important;
+            left: 2vw !important;
+            top: 20vw !important;
+        }
+
+        .btn{
+            top: 40vw !important;
+            left: 10vw !important;
+            width: 60vw !important;
+            margin-top: 3vw;
+
+            .box{
+                padding: 4vw 18vw !important;
+                left: 5vw !important;
+                top: -3vw !important;
+            }
+
+            .main-btn{
+                top: 1vw;
+                font-size: 3.4vw !important;
+                padding: 3vw 4.4vw !important;
+
+            }
+        }
+
+        .btn:hover {
+            .box{
+                top: 1vw;
+                left: 0;
+            }
+        }
+    }
+}
+
+} 
 
  @media (max-width: 1024px){
     #page1{

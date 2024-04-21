@@ -495,7 +495,7 @@
     
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
 
     .main-nav{
         height: 15vh;
@@ -530,7 +530,17 @@
             }
     
             button{
-                display: none;
+                display: flex !important;
+                padding: 1.2vw 2.5vw !important;
+                font-size: 1.5vw ;
+    
+                .plus{
+                    padding: 1vw !important;
+    
+                    .plus-sign{
+                        font-size: 1.7vw;
+                    }
+                }
             }
     
     
@@ -655,7 +665,7 @@
     
 }
 
-/* @media screen and (max-width: 1024px){
+ @media screen and (max-width: 1024px){
 
     .main-nav{
         height: 15vh;
@@ -706,7 +716,7 @@
                   
                  &.close {
                      left: -25vw;
-                     animation: slideOut 0.5s forwards; /
+                     animation: slideOut 0.5s forwards; 
                  }
         
                 .logo-img{
@@ -811,6 +821,6 @@
                 
             }
         }
-    }
     
-} */
+    
+} }
