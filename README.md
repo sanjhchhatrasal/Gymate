@@ -66,6 +66,3 @@ Contributions to Gymate are welcome! If you have suggestions, feature requests, 
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/sanjhchhatrasal/Gymate/blob/main/LICENSE) file for details.
 
----
-
-Feel free to adjust the content or add more emojis as you see fit!
