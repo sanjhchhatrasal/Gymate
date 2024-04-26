@@ -337,6 +337,56 @@
                     background-color: #FF0336;
                 }
             }
+
+            .mid2{
+                h1{
+                    font-size: 8vw;
+                    width: 90%;
+                    top: 27vw;
+                }
+    
+                p{
+                    top: 50vw;
+                    width: 90%;
+                    font-size: 3vw;
+                    align-items: center;
+                }
+    
+                .btm2{
+                    height: 10vh;
+                    width: 13vw;
+                    top: 50vh;
+        
+                    .box{
+                        top: -3vw;
+                        left: 5vw;
+                        padding: 5vw 23vw;
+                        background-color: transparent;
+                        border: 1px solid #FF0336;
+                        transition: all ease 0.5s;
+                    }
+        
+                    button{
+                        top: 1vw;
+                        padding: 4vw 9vw;
+                        font-size: 3.5vw;
+                    }
+    
+                    .arrow{
+                        margin-left: 0.5vw;
+                    }
+        
+                    
+                }
+    
+                .btm2:hover{
+                    .box{
+                        left: 0;
+                        top: 1vw;
+                    }
+                }
+        
+            }
         }
 
         .right{

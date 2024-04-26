@@ -2,6 +2,7 @@
     height: 265vh;
     width: 100%;
     position: relative;
+    overflow: hidden;
 
     .content{
         width: 100%;
@@ -134,4 +135,100 @@
 
    
 
+}
+
+
+@media screen and (max-width: 480px){
+    .main-about{
+        height: 330vh;
+    
+        .content{
+    
+            #page2{
+                height: 90vh !important;
+               }
+    
+               #page3{
+                height: 200vh !important;
+                width: 90%;
+                left: 5vw;
+    
+                .top{
+                    height: 50%;
+                    flex-direction: column;
+    
+                    .text{
+                        width: 100%;
+                        padding: 5vw 8vw;
+                        position: relative;
+    
+                        .history{
+                            height: 20vw;
+                            left: 35vw;
+                        }
+    
+                        h1{
+                           left: 15vw;
+                            top: 27vw;
+                            font-size: 9vw;
+                            width: 100% !important;
+                        }
+    
+                        p{
+                            left: 0;
+                            top: 39vw;
+                            font-size: 3.5vw;
+                            width: 100% !important;
+                        }
+                    }
+    
+                    .image{
+                        height: 45%;
+                        width: 100%;
+                        position: absolute;
+                        top: 70vw;
+                    }
+                }
+    
+                .btm{
+                    flex-direction: column;
+    
+                    .text{
+                        width: 100%;
+                        top: 70vw;
+                        padding: 5vw 8vw;
+    
+                        .history{
+                            height: 20vw;
+                            left: 35vw;
+                        }
+    
+                        h1{
+                           left: 15vw;
+                            top: 28vw;
+                            font-size: 9vw;
+                        }
+    
+                        p{
+                            top: 42vw;
+                            left: 0vw;
+                            font-size: 3.5vw;
+                            width: 100%;
+                        }
+                    }
+    
+                    .image{
+                        position: absolute;
+                        height: 25%;
+                        width: 100%;
+                        top: 140vw;
+                    }
+                }
+    
+               }
+        }
+    
+       
+    
+    }
 }
