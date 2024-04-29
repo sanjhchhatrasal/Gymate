@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import TopImage from '../TopImage/TopImage';
 import './Dashboard.scss';
+import { MdNoMeetingRoom } from 'react-icons/md';
 
 function Dashboard() {
     const [userData, setUserData] = useState(null);
@@ -33,6 +34,7 @@ function Dashboard() {
     };
 
     return (
+
         <div className='dashboard'>
             <TopImage />
             <h2>Dashboard</h2>
@@ -65,3 +67,4 @@ function Dashboard() {
 }
 
 export default Dashboard;
+
