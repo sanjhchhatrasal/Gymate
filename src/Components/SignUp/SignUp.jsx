@@ -6,18 +6,29 @@ import TopImage from '../TopImage/TopImage'
 function SignUp() {
     const [isSignUp, setIsSignUp] = useState(true)
     const navigate = useNavigate();
+    const [email, setEmail] = useState("");
+    const [name, setName] = useState("");
+    const [password, setPassword] = useState("");
+    const [number, setNumber] = useState("");
 
     const handleSignIn = () =>{
         setIsSignUp(false)
     }
 
-    const handleSignUp = () =>{
+     const handleSignUp = () =>{
         setIsSignUp(true)
-    }
+    } 
 
-    const navigatePage = () =>{
+   /*  const navigatePage = () =>{
         navigate("/")
-    }
+    } */
+
+
+    const navigatePage = () => {
+        // Store user data in local storage
+        localStorage.setItem('userData', JSON.stringify({ name, email , number}));
+        navigate('/dashboard'); // Redirect to dashboard
+    };
 
   return (
     <div className='main-signup'>
@@ -26,15 +37,19 @@ function SignUp() {
             <div className="form">
                 {isSignUp && <div className="username">
                     <h6>UserName</h6>
-                    <input type="text" placeholder='UserName'/>
+                    <input type="text" placeholder='UserName' value={name} onChange={(e) => setName(e.target.value)}/>
                 </div>}
                 <div className="email">
                     <h6>Email</h6>
-                    <input type="email" name="" id="" placeholder='gymate@gmail.com'/>
+                    <input type="email" name="" id="" placeholder='gymate@gmail.com' value={email} onChange={(e) => setEmail(e.target.value)}/>
+                </div>
+                <div className="email">
+                    <h6>Phone</h6>
+                    <input type="text" name="" id="" placeholder='123456789' value={number} onChange={(e) => setNumber(e.target.value)}/>
                 </div>
                 <div className="password">
                     <h6>Password</h6>
-                    <input type="password" name="" id="" placeholder='password'/>
+                    <input type="password" name="" id="" placeholder='password' value={password} onChange={(e) => setPassword(e.target.value)}/>
                 </div>
                 <div className="btn" onClick={isSignUp ? navigatePage : navigatePage}>
                 <button>{isSignUp ? "Sign Up" : "Sign In"}</button>

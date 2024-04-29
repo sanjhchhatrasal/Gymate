@@ -65,6 +65,7 @@ function Navbar() {
         <NavLink className='navlink' to="/pricing">Pricing</NavLink>
         <NavLink className='navlink' to="/classes">Classes</NavLink>
         <NavLink className='navlink' to="/contact">Contact</NavLink>
+        <NavLink className='navlink' to="/dashboard">Dashboard</NavLink>
       </div>
       <div className="right-group">
         <FaBars className='menu-bars' onClick={toggleNav}/>
@@ -143,6 +144,7 @@ function Navbar() {
           <NavLink className='navlink' to="/pricing" onClick={handleNavlinkClick}>Pricing</NavLink>
           <NavLink className='navlink' to="/classes" onClick={handleNavlinkClick}>Classes</NavLink>
           <NavLink className='navlink' to="/contact" onClick={handleNavlinkClick}>Contact</NavLink>
+          <NavLink className='navlink' to="/dashboard" onClick={handleNavlinkClick}>Dashboard</NavLink>
         </div>
          </div>
         )}

@@ -13,6 +13,7 @@ import Schedule from './Components/Schedule/Schedule'
 import Classes from './Components/Classes/Classes'
 import TopImage from './Components/TopImage/TopImage'
 import SignUp from './Components/SignUp/SignUp'
+import AdminDashboard from './Components/Admin dashboard/Dashboard'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -26,6 +27,7 @@ const router = createBrowserRouter(
       <Route path='classes' element={<Classes />}/>
       <Route path='contact' element={<Contact />}/>
       <Route path='signup' element={<SignUp />}/>
+      <Route path='Dashboard' element={<AdminDashboard />} />
     </Route>
   )
 )
