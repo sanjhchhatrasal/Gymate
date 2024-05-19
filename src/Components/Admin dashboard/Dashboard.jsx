@@ -29,6 +29,7 @@ function Dashboard() {
     };
 
     const handleChange = (e) => {
+        
         const { name, value } = e.target;
         setEditedData((prevData) => ({ ...prevData, [name]: value }));
     };
