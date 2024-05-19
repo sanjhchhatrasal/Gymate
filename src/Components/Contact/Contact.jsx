@@ -22,7 +22,7 @@ function Contact() {
              <div className="line"></div>
              <p>85 Briston Mint Street, London, e1 8LG , USA</p>
             </div>
-            
+
             <div className="elem elem2">
               <h6>Opening Hours</h6>
               <div className="line">
@@ -31,6 +31,7 @@ function Contact() {
               </div>
               </div>
             </div>
+            
             <div className="elem elem3">
               <h6>Information</h6>
               <div className="line"></div>
