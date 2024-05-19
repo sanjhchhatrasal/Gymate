@@ -53,7 +53,7 @@ function Home() {
             <button className='main-btn'>OUR CLASSES <FaArrowRight className='arrow'/></button>
           </div>
         </div>
-        
+
         <div className="social-icons">
           <p>SHARE</p>
           <div className="line"></div>
@@ -99,6 +99,7 @@ function Home() {
         </div>
         </div>
       </div>
+      
       <div id="page3">
           <div className="title">
           <img className='title-bg-img' src={titleBg} alt="" />
