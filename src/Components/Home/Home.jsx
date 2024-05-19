@@ -45,7 +45,7 @@ function Home() {
           <img className='title-bg' src={titleBg} alt="" />
           <h2>FIND YOUR ENERGY</h2>
           </div>
-          
+
           <h1>MAKE YOUR BODY</h1>
           <h2>FIT & PERFECT</h2>
           <div className="btn">
@@ -53,6 +53,7 @@ function Home() {
             <button className='main-btn'>OUR CLASSES <FaArrowRight className='arrow'/></button>
           </div>
         </div>
+        
         <div className="social-icons">
           <p>SHARE</p>
           <div className="line"></div>
