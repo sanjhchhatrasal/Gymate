@@ -22,6 +22,7 @@ function Contact() {
              <div className="line"></div>
              <p>85 Briston Mint Street, London, e1 8LG , USA</p>
             </div>
+            
             <div className="elem elem2">
               <h6>Opening Hours</h6>
               <div className="line">
@@ -35,7 +36,7 @@ function Contact() {
               <div className="line"></div>
               <p>+800-123-4567 gymate@email.com</p>
             </div>
-            
+
             <div className="elem elem4">
               <h6>Follow Us On</h6>
               <div className="line"></div>
