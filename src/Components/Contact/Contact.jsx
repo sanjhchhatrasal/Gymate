@@ -31,7 +31,7 @@ function Contact() {
               </div>
               </div>
             </div>
-            
+
             <div className="elem elem3">
               <h6>Information</h6>
               <div className="line"></div>
@@ -81,6 +81,7 @@ function Contact() {
             <button>SUBMIT NOW</button>
           </div>
         </div>
+        
         </div>
         <div id="bottom"></div>
       </div>
