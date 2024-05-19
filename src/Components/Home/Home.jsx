@@ -45,6 +45,7 @@ function Home() {
           <img className='title-bg' src={titleBg} alt="" />
           <h2>FIND YOUR ENERGY</h2>
           </div>
+          
           <h1>MAKE YOUR BODY</h1>
           <h2>FIT & PERFECT</h2>
           <div className="btn">
