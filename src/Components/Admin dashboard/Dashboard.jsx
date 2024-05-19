@@ -28,8 +28,7 @@ function Dashboard() {
         setEditMode(false); 
     };
 
-    const handleChange = (e) => {
-        
+    const handleChange = (e) => {  
         const { name, value } = e.target;
         setEditedData((prevData) => ({ ...prevData, [name]: value }));
     };
