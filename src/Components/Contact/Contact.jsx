@@ -35,6 +35,7 @@ function Contact() {
               <div className="line"></div>
               <p>+800-123-4567 gymate@email.com</p>
             </div>
+            
             <div className="elem elem4">
               <h6>Follow Us On</h6>
               <div className="line"></div>
